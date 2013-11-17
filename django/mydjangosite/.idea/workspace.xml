@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="232bc877-738a-49cb-9bbb-ec5b0ad61a50" name="Default" comment="更改为中文显示，添加了admin.py">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/models.py" afterPath="$PROJECT_DIR$/polls/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mydjangosite/settings.py" afterPath="$PROJECT_DIR$/mydjangosite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mydjangosite/urls.py" afterPath="$PROJECT_DIR$/mydjangosite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/admin.py" afterPath="$PROJECT_DIR$/polls/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mydjangosite.iws" />
@@ -37,7 +34,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mydjangosite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="3" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -46,14 +43,8 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding>
-                <marker date="1384679874000" expanded="true" signature="22:100" placeholder="import ..." />
-                <marker date="1384679874000" expanded="true" signature="155:503" placeholder="..." />
-                <marker date="1384679874000" expanded="true" signature="440:503" placeholder="..." />
-                <marker date="1384679874000" expanded="true" signature="533:810" placeholder="..." />
-                <marker date="1384679874000" expanded="true" signature="747:810" placeholder="..." />
-              </folding>
+            <state line="33" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,7 +52,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mydjangosite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="22" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2460">
+            <state line="99" column="22" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="2460">
               <folding />
             </state>
           </provider>
@@ -70,7 +61,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="510">
+            <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.234375" vertical-offset="0" max-vertical-offset="512">
               <folding>
                 <element signature="e#27#59#0" expanded="true" />
               </folding>
@@ -81,7 +72,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
@@ -107,8 +98,8 @@
       <list>
         <option value="$PROJECT_DIR$/mydjangosite/urls.py" />
         <option value="$PROJECT_DIR$/mydjangosite/settings.py" />
-        <option value="$PROJECT_DIR$/polls/admin.py" />
         <option value="$PROJECT_DIR$/polls/models.py" />
+        <option value="$PROJECT_DIR$/polls/admin.py" />
       </list>
     </option>
   </component>
@@ -204,14 +195,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../envs" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../envs" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -303,27 +294,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mydjangosite" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -349,7 +320,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mydjangosite" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -476,18 +467,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7244389" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6577381" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2790531" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28335723" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25107604" sideWeight="0.28422618" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23067331" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23067331" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2300995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -513,13 +504,7 @@
     <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-          <folding>
-            <marker date="1384679874000" expanded="true" signature="22:100" placeholder="import ..." />
-            <marker date="1384679874000" expanded="true" signature="155:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="440:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="533:810" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="747:810" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,13 +525,7 @@
     <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="37" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-          <folding>
-            <marker date="1384679874000" expanded="true" signature="22:100" placeholder="import ..." />
-            <marker date="1384679874000" expanded="true" signature="155:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="440:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="533:810" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="747:810" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,9 +581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../envs/django_env/lib/python3.3/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="35" selection-start="3244" selection-end="3256" vertical-scroll-proportion="0.23089983" vertical-offset="884" max-vertical-offset="21075">
-          <folding />
-        </state>
+        <state line="93" column="35" selection-start="3244" selection-end="3256" vertical-scroll-proportion="0.23089983" vertical-offset="884" max-vertical-offset="21075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mydjangosite/settings.py">
@@ -617,19 +594,13 @@
     <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <marker date="1384679874000" expanded="true" signature="22:100" placeholder="import ..." />
-            <marker date="1384679874000" expanded="true" signature="155:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="440:503" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="533:810" placeholder="..." />
-            <marker date="1384679874000" expanded="true" signature="747:810" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="510">
+        <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.234375" vertical-offset="0" max-vertical-offset="512">
           <folding>
             <element signature="e#27#59#0" expanded="true" />
           </folding>
