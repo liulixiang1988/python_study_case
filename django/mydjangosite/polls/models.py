@@ -6,7 +6,7 @@ from django.db import models
 
 # Create your models here.
 class Poll(models.Model):
-    question = models.CharField(max_length=200)
+    question = models.CharField('投票问题', max_length=200)
     pub_date = models.DateTimeField('发布日期')
 
     def __str__(self):
@@ -15,11 +15,19 @@ class Poll(models.Model):
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
+    class Meta:
+        verbose_name = '投票'
+        verbose_name_plural = '投票'
+
 
 class Choice(models.Model):
     poll = models.ForeignKey(Poll)
-    choice_text = models.CharField(max_length=200)
-    votes = models.IntegerField(default=0)
+    choice_text = models.CharField('选择', max_length=200)
+    votes = models.IntegerField('票数', default=0)
 
     def __str__(self):
         return self.choice_text
+
+    class Meta:
+        verbose_name = '选择'
+        verbose_name_plural = '选择'
