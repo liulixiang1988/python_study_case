@@ -35,4 +35,4 @@ nosetests.xml
 .pydevproject
 
 #Pycharm
-.idea
+.idea/
