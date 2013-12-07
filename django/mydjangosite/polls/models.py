@@ -6,7 +6,7 @@ from django.db import models
 
 # Create your models here.
 class Poll(models.Model):
-    question = models.CharField('投票问题', max_length=200)
+    question = models.CharField('投票', max_length=200)
     pub_date = models.DateTimeField('发布日期')
 
     def __str__(self):
