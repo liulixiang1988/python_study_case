@@ -18,3 +18,4 @@ class PollAdmin(admin.ModelAdmin):
     list_display = ('question', 'pub_date')
 
 admin.site.register(Poll, PollAdmin)
+admin.site.register(Choice)
