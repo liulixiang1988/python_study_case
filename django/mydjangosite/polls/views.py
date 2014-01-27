@@ -18,7 +18,8 @@ def detail(request, poll_id):
 
 
 def results(request, poll_id):
-    return HttpResponse('投票%s的结果' % poll_id)
+    p = get_object_or_404(Poll, pk=poll_id)
+    return render(request, 'polls/result.html', {'poll': p})
 
 
 def vote(request, poll_id):
