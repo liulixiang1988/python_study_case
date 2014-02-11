@@ -19,3 +19,17 @@ class PollMethodTests(TestCase):
         '''
         future_poll = Poll(pub_date=timezone.now() + datetime.timedelta(days=10))
         self.assertEqual(future_poll.was_published_recently(), False)
+
+    def test_was_published_recently_with_old_poll(self):
+        '''
+        was_published_recently should return false with old poll
+        '''
+        old_poll = Poll(pub_date=timezone.now() - datetime.timedelta(days=10))
+        self.assertEqual(old_poll.was_published_recently(), False)
+
+    def test_was_published_recently_with_recent_poll(self):
+        '''
+        was_published_recently should return true with recent poll
+        '''
+        recent_poll = Poll(pub_date=timezone.now() - datetime.timedelta(hours=1))
+        self.assertEqual(recent_poll.was_published_recently(), True)
