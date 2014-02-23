@@ -7,7 +7,8 @@ from django.db import models
 # Create your models here.
 class Poll(models.Model):
     question = models.CharField('投票', max_length=200)
-    pub_date = models.DateTimeField('发布日期')
+    #pub_date = models.DateTimeField('发布日期', auto_now_add=True)
+    pub_date = models.DateTimeField('发布日期', default=datetime.datetime.now, blank=True)
 
     def __str__(self):
         return self.question
