@@ -7,6 +7,9 @@ import sys
 def main():
 	print(__file__)
 	print(os.path.dirname(__file__))
+	print(os.path.dirname(os.path.dirname(__file__)))
+	print(sys.path)
+	sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 	print(sys.path)
 	print(os.path.dirname('..'))
 
