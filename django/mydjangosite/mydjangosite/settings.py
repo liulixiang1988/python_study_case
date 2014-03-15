@@ -1,7 +1,9 @@
 # Django settings for mydjangosite project.
-
+import os
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+
+BASEDIR = os.path.dirname(os.path.dirname(__file__))
 
 ADMINS = (
 # ('Your Name', 'your_email@example.com'),
@@ -73,6 +75,13 @@ STATICFILES_DIRS = (
 # Always use forward slashes, even on Windows.
 # Don't forget to use absolute paths, not relative paths.
 )
+if DEBUG:
+    MEDIA_URL = '/media/'
+    MEDIA_ROOT = os.path.join(BASEDIR, 'static', 'media')
+    STATIC_ROOT = os.path.join(BASEDIR, 'static', 'static-only')
+    STATICFILES_DIRS = (
+        os.path.join(BASEDIR, 'static', 'static'),
+    )
 
 # List of finder classes that know how to find static files in
 # various locations.
@@ -125,6 +134,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'polls',
     #'auth',
+    'signups',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
