@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>注册</title>
-</head>
-<body>
+{% extends 'signups/base.html' %}
+{% block content %}
     <h1>加入我们</h1>
     <form method="POST" action=''>
         {% csrf_token %}
         {{ form.as_p }}
         <input type="submit"/>
     </form>
-</body>
-</html>
+{% endblock %}
