@@ -21,3 +21,6 @@ def home(request):
 
 def thank_you(request):
     return render(request, 'signups/thankyou.html')
+
+def about_us(request):
+    return render(request, 'signups/aboutus.html')
