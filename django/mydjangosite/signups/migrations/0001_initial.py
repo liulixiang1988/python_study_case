@@ -11,8 +11,9 @@ class Migration(SchemaMigration):
         # Adding model 'SignUp'
         db.create_table('signups_signup', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('first_name', self.gf('django.db.models.fields.CharField')(null=True, max_length=120, blank=True)),
-            ('last_name', self.gf('django.db.models.fields.CharField')(null=True, max_length=120, blank=True)),
+            ('for_you', self.gf('django.db.models.fields.BooleanField')(default=True)),
+            ('first_name', self.gf('django.db.models.fields.CharField')(max_length=120, blank=True, null=True)),
+            ('last_name', self.gf('django.db.models.fields.CharField')(max_length=120, blank=True, null=True)),
             ('email', self.gf('django.db.models.fields.EmailField')(max_length=75)),
             ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now_add=True, blank=True)),
             ('updated', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
@@ -29,9 +30,10 @@ class Migration(SchemaMigration):
         'signups.signup': {
             'Meta': {'object_name': 'SignUp'},
             'email': ('django.db.models.fields.EmailField', [], {'max_length': '75'}),
-            'first_name': ('django.db.models.fields.CharField', [], {'null': 'True', 'max_length': '120', 'blank': 'True'}),
+            'first_name': ('django.db.models.fields.CharField', [], {'max_length': '120', 'blank': 'True', 'null': 'True'}),
+            'for_you': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'last_name': ('django.db.models.fields.CharField', [], {'null': 'True', 'max_length': '120', 'blank': 'True'}),
+            'last_name': ('django.db.models.fields.CharField', [], {'max_length': '120', 'blank': 'True', 'null': 'True'}),
             'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}),
             'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         }
