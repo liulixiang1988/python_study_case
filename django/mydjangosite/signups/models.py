@@ -4,6 +4,7 @@ from django.db import models
 
 # Create your models here.
 class SignUp(models.Model):
+    for_you = models.BooleanField(default=True, verbose_name='是您刚捐的款吗，如果是，请勾选')
     first_name = models.CharField('姓', max_length=120, null=True, blank=True)
     last_name = models.CharField('名', max_length=120, null=True, blank=True)
     email = models.EmailField('邮箱')

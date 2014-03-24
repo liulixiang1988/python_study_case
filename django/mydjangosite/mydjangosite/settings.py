@@ -135,6 +135,7 @@ INSTALLED_APPS = (
     'polls',
     #'auth',
     'signups',
+    'south',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
