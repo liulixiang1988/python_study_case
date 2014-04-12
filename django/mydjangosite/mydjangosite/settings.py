@@ -142,6 +142,7 @@ INSTALLED_APPS = (
     #'auth',
     'signups',
     'south',
+    'rango',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

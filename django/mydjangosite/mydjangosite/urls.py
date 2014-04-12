@@ -13,6 +13,7 @@ urlpatterns = patterns('',
                        # url(r'^mydjangosite/', include('mydjangosite.foo.urls')),
                        url(r'^polls/', include('polls.urls', namespace='polls')),
                        url(r'^signups/', include('signups.urls', namespace='signups')),
+                       url(r'^rango/', include('rango.urls', namespace='rango')),
                        #url(r'^auth/', include('auth.urls', namespace='auth')),
                        # Uncomment the admin/doc line below to enable admin documentation:
                        url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
