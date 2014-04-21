@@ -10,7 +10,7 @@
     <h2>分类列表</h2>
     <ul>
     {% for category in categories %}
-        <li>{{ category.name }}</li>
+        <li><a href="{% url 'rango:category' category.url%}">{{ category.name }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
