@@ -2,7 +2,7 @@ from django.shortcuts import render, render_to_response
 from django.template import RequestContext
 from django.http import HttpResponse
 
-from .models import Category
+from .models import Category, Page
 
 
 def index(request):
@@ -14,3 +14,18 @@ def index(request):
 
 def about(request):
     return render(request, 'rango/about.html')
+
+
+def category(request, category_name_url):
+    category_name = category_name_url.replace('_', ' ')
+    context_dict = {'category_name': category_name}
+    try:
+        thecategory = Category.objects.get(name=category_name)
+        pages = Page.objects.filter(category=thecategory)
+        context_dict['pages'] = pages
+        context_dict['category'] = thecategory
+    except Category.DoesNotExist:
+        pass
+
+    return render(request, 'rango/cateogry.html', context_dict)
+

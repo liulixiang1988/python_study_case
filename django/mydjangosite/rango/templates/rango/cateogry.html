@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>类别</title>
+</head>
+<body>
+<h1>{{ category_name }}</h1>
+{% if category %}
+    {% if pages %}
+        <ul>
+        {% for page in pages %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <strong>不存在对应的页面</strong>
+    {% endif %}
+{% else %}
+    <strong>指定的类别{{ category_name }}不存在</strong>
+{% endif %}
+<a href="{% url 'rango:about' %}">关于</a><br/>
+</body>
+</html>
