@@ -16,6 +16,16 @@
 {% else %}
     <strong>现在没有任何分类</strong>
 {% endif %}
+{% if pages %}
+    <h2>访问最多的页面</h2>
+    <ul>
+    {% for page in pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <strong>现在没有任何页面</strong>
+{% endif %}
 <a href="{% url 'rango:about' %}">关于</a><br/>
 <img src="{% static 'rango/rango.jpg' %}" alt="rango"/>
 </body>
