@@ -3,6 +3,7 @@ from django.template import RequestContext
 from django.http import HttpResponse
 
 from .models import Category, Page
+from .forms import CategoryForm
 
 
 def index(request):
@@ -34,4 +35,17 @@ def category(request, category_name_url):
         pass
 
     return render(request, 'rango/cateogry.html', context_dict)
+
+
+def add_category(request):
+    if request.method == 'POST':
+        form = CategoryForm(request.POST)
+        if form.is_valid():
+            form.save(commit=True)
+            return index(request)  #显示首页
+        else:
+            print(form.errors)
+    else:
+        form = CategoryForm()
+    return render(request, 'rango/add_category.html', {'form': form})
 

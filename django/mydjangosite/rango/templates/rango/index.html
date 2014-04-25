@@ -26,6 +26,7 @@
 {% else %}
     <strong>现在没有任何页面</strong>
 {% endif %}
+<a href="{% url 'rango:add_category' %}">增加类别</a><br/>
 <a href="{% url 'rango:about' %}">关于</a><br/>
 <img src="{% static 'rango/rango.jpg' %}" alt="rango"/>
 </body>
