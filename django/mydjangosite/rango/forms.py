@@ -21,6 +21,7 @@ class PageForm(forms.ModelForm):
 
     class Meta:
         model = Page
+        fields = ('title', 'url', 'views')
 
 
 
