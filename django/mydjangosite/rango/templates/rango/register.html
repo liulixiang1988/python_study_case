@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>加入到Rango</title>
+</head>
+<body>
+<h1>加入到Rango</h1>
+{% if registered %}
+    Rango说：<strong>感谢你的加入！</strong>
+    <a href="{% url 'rango:index' %}">返回首页</a>
+{% else %}
+    <form method="post" enctype="multipart/form-data" action="{% url 'rango:register' %}">
+        {% csrf_token %}
+        {{ user_form.as_p }}
+        {{ profile_form.as_p }}
+        <input type="submit" name="submit" value="提交" />
+    </form>
+{% endif %}
+</body>
+</html>
