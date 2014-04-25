@@ -18,6 +18,7 @@
 {% else %}
     <strong>指定的类别{{ category_name }}不存在</strong>
 {% endif %}
+<a href="{% url 'rango:add_page' category_name_url %}">添加页面</a>
 <a href="{% url 'rango:about' %}">关于</a><br/>
 </body>
 </html>
