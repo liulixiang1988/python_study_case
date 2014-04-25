@@ -104,5 +104,5 @@ def register(request):
             print(user_form.errors, profile_form.errors)
     else:
         user_form = UserForm()
-        userprofile_form = UserProfileForm()
+        profile_form = UserProfileForm()
     return render(request, 'rango/register.html', locals())
