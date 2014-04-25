@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Category(models.Model):
@@ -26,3 +27,15 @@ class Page(models.Model):
     class Meta:
         verbose_name = '页面'
         verbose_name_plural = '页面'
+
+
+class UserProfile(models.Model):
+    #关联用户
+    user = models.OneToOneField(User)
+
+    website = models.URLField('网址', blank=True)
+    picture = models.ImageField('头像', upload_to='profile_images', blank=True)
+
+    class Meta:
+        verbose_name = '用户说明'
+        verbose_name_plural = '用户说明'
