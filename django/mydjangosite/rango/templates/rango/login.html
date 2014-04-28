@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rango登录</title>
+</head>
+<body>
+    <h1>用户登录</h1>
+    <form method="post" action="{% url 'rango:login' %}">
+        {% csrf_token %}
+        用户名：<input type="text" name="username" value="" size="50"/>
+        <br/>
+        密码：<input type="password" name="password" value="" size="50" />
+        <br/>
+        <input type="submit" name="submit" value="添加"/>
+    </form>
+</body>
+</html>

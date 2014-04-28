@@ -3,6 +3,8 @@ from django.core.urlresolvers import reverse
 from django.template import RequestContext
 from django.http import HttpResponse
 from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 
 from .models import Category, Page, UserProfile
 from .forms import CategoryForm, PageForm, UserForm, UserProfileForm
@@ -44,6 +46,7 @@ def category(request, category_name_url):
     return render(request, 'rango/cateogry.html', context_dict)
 
 
+@login_required
 def add_category(request):
     if request.method == 'POST':
         form = CategoryForm(request.POST)
@@ -57,6 +60,7 @@ def add_category(request):
     return render(request, 'rango/add_category.html', {'form': form})
 
 
+@login_required
 def add_page(request, category_name_url):
     category_name = decode_url(category_name_url)
     if request.method == 'POST':
@@ -106,3 +110,28 @@ def register(request):
         user_form = UserForm()
         profile_form = UserProfileForm()
     return render(request, 'rango/register.html', locals())
+
+
+def user_login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return redirect(reverse('rango:index'))
+            else:
+                return HttpResponse('你的账户已经被禁用了')
+        else:
+            print('Invalid login details:{0}, {1}'.format(username, password))
+            return HttpResponse('非法登录')
+    else:
+        return render(request, 'rango/login.html')
+
+
+@login_required
+def user_logout(request):
+    logout(request)
+    return redirect(reverse('rango:index'))

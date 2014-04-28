@@ -11,6 +11,8 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'test@gmail.com'
 EMAIL_HOST_PASSWORD = 'test'
 
+LOGIN_URL = '/rango/login/'
+
 ADMINS = (
 # ('Your Name', 'your_email@example.com'),
 )
