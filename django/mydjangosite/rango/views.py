@@ -121,13 +121,20 @@ def user_login(request):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                return redirect(reverse('rango:index'))
+                if request.session.get('redirect_url', None):
+                    redirect_url = request.session['redirect_url']
+                    del request.session['redirect_url']
+                    return redirect(redirect_url)
+                else:
+                    return redirect(reverse('rango:index'))
             else:
                 return HttpResponse('你的账户已经被禁用了')
         else:
             print('Invalid login details:{0}, {1}'.format(username, password))
             return HttpResponse('非法登录')
     else:
+        if request.GET.get('next', None):
+            request.session['redirect_url'] = request.GET['next']
         return render(request, 'rango/login.html')
 
 
