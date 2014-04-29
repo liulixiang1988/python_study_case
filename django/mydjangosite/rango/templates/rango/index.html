@@ -1,44 +1,31 @@
-<!DOCTYPE html>
-{% load static %}
-<html>
-<head>
-    <title>Rango</title>
-</head>
-<body>
-{% if user.is_authenticated %}
-<h1>Rango说...Hello, {{ user.get_full_name }}</h1>
-{% else %}
-<h1>Rango 说...Hello, world!</h1>
-{% endif %}
-{% if categories %}
-    <h2>分类列表</h2>
-    <ul>
-    {% for category in categories %}
-        <li><a href="{% url 'rango:category' category.url%}">{{ category.name }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <strong>现在没有任何分类</strong>
-{% endif %}
-{% if pages %}
-    <h2>访问最多的页面</h2>
-    <ul>
-    {% for page in pages %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <strong>现在没有任何页面</strong>
-{% endif %}
-<a href="{% url 'rango:add_category' %}">增加类别</a><br/>
-{% if user.is_authenticated %}
-    {{ user.username }}
-<a href="{% url 'rango:logout' %}">登出</a>
-{% else %}
-<a href="{% url 'rango:register' %}">注册</a>
-<a href="{% url 'rango:login' %}">登录</a>
-{% endif %}
-<a href="{% url 'rango:about' %}">关于</a><br/>
-<img src="{% static 'rango/rango.jpg' %}" alt="rango"/>
-</body>
-</html>
+{% extends 'rango/base.html' %}
+
+{% block body_block %}
+    {% if user.is_authenticated %}
+    <h1>Rango说...Hello, {{ user.get_full_name }}</h1>
+    {% else %}
+    <h1>Rango 说...Hello, world!</h1>
+    {% endif %}
+
+    {% if categories %}
+        <h2>分类列表</h2>
+        <ul>
+        {% for category in categories %}
+            <li><a href="{% url 'rango:category' category.url%}">{{ category.name }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <strong>现在没有任何分类</strong>
+    {% endif %}
+
+    {% if pages %}
+        <h2>访问最多的页面</h2>
+        <ul>
+        {% for page in pages %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <strong>现在没有任何页面</strong>
+    {% endif %}
+{% endblock %}

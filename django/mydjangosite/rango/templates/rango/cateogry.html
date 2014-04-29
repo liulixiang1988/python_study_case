@@ -1,24 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>类别</title>
-</head>
-<body>
-<h1>{{ category_name }}</h1>
-{% if category %}
-    {% if pages %}
-        <ul>
-        {% for page in pages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-        </ul>
+{% extends 'rango/base.html' %}
+{% block tilte %}{{ category_name }}{% endblock %}
+{% block body_block %}
+    <h1>{{ category_name }}</h1>
+    {% if category %}
+        {% if pages %}
+            <ul>
+            {% for page in pages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <strong>不存在对应的页面</strong>
+        {% endif %}
     {% else %}
-        <strong>不存在对应的页面</strong>
+        <strong>指定的类别{{ category_name }}不存在</strong>
     {% endif %}
-{% else %}
-    <strong>指定的类别{{ category_name }}不存在</strong>
-{% endif %}
-<a href="{% url 'rango:add_page' category_name_url %}">添加页面</a>
-<a href="{% url 'rango:about' %}">关于</a><br/>
-</body>
-</html>
+    {% if user.is_authenticated %}
+        <a href="{% url 'rango:add_page' category_name_url %}">添加页面</a>
+    {% endif %}
+{% endblock %}

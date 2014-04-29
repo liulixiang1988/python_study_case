@@ -19,6 +19,8 @@
             {% endif %}
                 <li><a href="{% url 'rango:about' %}">关于</a></li>
         </ul>
+        {% load static %}
+        <img src="{% static 'rango/rango.jpg' %}" alt="rango" />
     </div>
 </body>
 </html>

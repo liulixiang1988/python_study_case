@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Rango</title>
-</head>
-<body>
+{% extends 'rango/base.html' %}
+
+{% block tilte %}添加页面{% endblock %}
+
+{% block body_block %}
     <h1>添加页面</h1>
     <form method="post" action="{% url 'rango:add_page' category_name_url %}">
         {% csrf_token %}
@@ -18,5 +17,4 @@
         {% endfor %}
         <input type="submit" name="submit" value="添加"/>
     </form>
-</body>
-</html>
+{% endblock %}

@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>加入到Rango</title>
-</head>
-<body>
+{% extends 'rango/base.html' %}
+
+{% block tilte %}加入到Rango{% endblock %}
+
+{% block body_block %}
 <h1>加入到Rango</h1>
 {% if registered %}
     Rango说：<strong>感谢你的加入！</strong>
@@ -16,5 +15,4 @@
         <input type="submit" name="submit" value="提交" />
     </form>
 {% endif %}
-</body>
-</html>
+{% endblock %}

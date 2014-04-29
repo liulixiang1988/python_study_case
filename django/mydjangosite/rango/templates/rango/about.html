@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-{% load static %}
-<html>
-<head>
-    <title>关于</title>
-</head>
-<body>
+{% extends 'rango/base.html' %}
+
+{% block tilte %}关于{% endblock %}
+
+{% block body_block %}
     <p>这是关于页面</p>
     <a href="{% url 'rango:index' %}">首页</a>
-    <br/>
-    <img src="{% static 'rango/rango.jpg' %}" alt="rango" />
-</body>
-</html>
+{% endblock %}

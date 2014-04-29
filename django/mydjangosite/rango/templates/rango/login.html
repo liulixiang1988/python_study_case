@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Rango登录</title>
-</head>
-<body>
+{% extends 'rango/base.html' %}
+
+{% block tilte %}用户登录{% endblock %}
+
+{% block body_block %}
     <h1>用户登录</h1>
     <form method="post" action="{% url 'rango:login' %}">
         {% csrf_token %}
@@ -13,5 +12,4 @@
         <br/>
         <input type="submit" name="submit" value="添加"/>
     </form>
-</body>
-</html>
+{% endblock %}
