@@ -25,21 +25,18 @@ def index(request):
 
     for category in category_list:
         category.url = category.name.replace(' ', '_')
-    response = render_to_response('rango/index.html', context_dict, context)
 
-    #get cookie value from request
-    visits = int(request.COOKIES.get('visits', 0))
+    if request.session.get('last_visit'):
+        last_visit_time = request.session['last_visit']
+        visits = request.session.get('visits', 0)
 
-    if 'last_visit' in request.COOKIES.keys():
-        last_visit = request.COOKIES['last_visit']
-        last_visit_time = datetime.datetime.strptime(last_visit[:-7], '%Y-%m-%d %H:%M:%S')
-
-        if (datetime.datetime.now() - last_visit_time).days > 0:
-            response.set_cookie('visits', visits + 1)
-            response.set_cookie('last_visit', datetime.datetime.now())
+        if (datetime.datetime.now() - datetime.datetime.strptime(last_visit_time[:-7], '%Y-%m-%d %H:%M:%S')).days > 0:
+            request.session['visits'] = visits + 1
+            request.session['last_visit'] = str(datetime.datetime.now())
     else:
-        response.set_cookie('last_visit', datetime.datetime.now())
-    return response
+        request.session['visits'] = 1
+        request.session['last_visit'] = str(datetime.datetime.now())
+    return render_to_response('rango/index.html', context_dict, context)
 
 
 def about(request):
