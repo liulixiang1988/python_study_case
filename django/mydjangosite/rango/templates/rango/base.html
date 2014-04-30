@@ -1,26 +1,65 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <title>Rango - {% block tilte %}How to Tango with Django!{% endblock %}</title>
 </head>
 <body>
-    <div>
-        {% block body_block %}{% endblock %}
-    </div>
-    <hr/>
-    <div>
-        <ul>
-            {% if user.is_authenticated %}
-                <li><a href="{% url 'rango:add_category' %}">增加类别</a></li>
-                <li><a href="{% url 'rango:logout' %}">登出</a></li>
-            {% else %}
+    <!-- navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{% url 'rango:index' %}">Rango</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              {% if user.is_authenticated %}
+                  <li class="navbar-text">欢迎，{{ user.username }}</li>
+                    <li><a href="{% url 'rango:logout' %}">登出</a></li>
+              {% else %}
                 <li><a href="{% url 'rango:register' %}">注册</a></li>
                 <li><a href="{% url 'rango:login' %}">登录</a></li>
-            {% endif %}
-                <li><a href="{% url 'rango:about' %}">关于</a></li>
-        </ul>
-        {% load static %}
-        <img src="{% static 'rango/rango.jpg' %}" alt="rango" />
+              {% endif %}
+          </ul>
+          <ul class="nav navbar-nav">
+              {% if user.is_authenticated %}
+              <li><a href="{% url 'rango:add_category' %}">增加类别</a></li>
+              {% endif %}
+              <li><a href="{% url 'rango:about' %}">关于</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar"></div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 main">{% block body_block %}{% endblock %}</div>
+        </div>
+    </div>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </body>
 </html>
