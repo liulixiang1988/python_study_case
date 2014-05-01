@@ -3,18 +3,27 @@
 {% block tilte %}添加页面{% endblock %}
 
 {% block body_block %}
-    <h1>添加页面</h1>
-    <form method="post" action="{% url 'rango:add_page' category_name_url %}">
-        {% csrf_token %}
-        {% for hidden in form.hidden_fields %}
-            {{ hidden }}
-        {% endfor %}
+    <div class="jumbotron">
+        <h1>添加页面</h1>
 
-        {% for field in form.visible_fields %}
-            {{ field.errors }}
-            {{ field.help_text }}
-            {{ field }}
-        {% endfor %}
-        <input type="submit" name="submit" value="添加"/>
-    </form>
+        <div class="row">
+            <form role="form" class="col-sm-4 col-lg-4" method="post"
+                  action="{% url 'rango:add_page' category_name_url %}">
+                {% csrf_token %}
+                {% for hidden in form.hidden_fields %}
+                    {{ hidden }}
+                {% endfor %}
+
+                {% for field in form.visible_fields %}
+                    <div class="form-group">
+                        {{ field.label }}
+                        {{ field }}
+                        {{ field.errors }}
+                    </div>
+                {% endfor %}
+                <input type="submit" name="submit" value="添加"/>
+            </form>
+        </div>
+
+    </div>
 {% endblock %}

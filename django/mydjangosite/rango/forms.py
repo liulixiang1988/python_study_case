@@ -16,8 +16,10 @@ class CategoryForm(forms.ModelForm):
 
 
 class PageForm(forms.ModelForm):
-    title = forms.CharField(max_length=128, help_text="请输入标题")
-    url = forms.URLField(max_length=128, help_text="请输入网页地址")
+    title = forms.CharField(label="标题", max_length=128, help_text="请输入标题",
+                            widget=forms.TextInput(attrs={'placeholder': '请输入标题'}))
+    url = forms.URLField(label="网址", max_length=128, help_text="请输入网页地址",
+                         widget=forms.URLInput(attrs={'placeholder': '请输入网页地址'}))
     views = forms.IntegerField(widget=forms.HiddenInput, initial=0)
 
     class Meta:
