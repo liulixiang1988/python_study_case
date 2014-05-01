@@ -3,6 +3,12 @@
 {% block tilte %}关于{% endblock %}
 
 {% block body_block %}
-    <p>这是关于页面</p>
-    <a href="{% url 'rango:index' %}">首页</a>
+    <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+    </p>
+    <div class="jumbotron">
+        <h1>这是关于页面</h1>
+        <p>福宝工作室.</p>
+        <p><a href="{% url 'rango:index' %}" class="btn btn-primary btn-lg" role="button">返回首页 »</a></p>
+    </div>
 {% endblock %}
