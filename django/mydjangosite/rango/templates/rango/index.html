@@ -1,31 +1,43 @@
 {% extends 'rango/base.html' %}
 
 {% block body_block %}
-    {% if user.is_authenticated %}
-    <h1>Rango说...Hello, {{ user.get_full_name }}</h1>
-    {% else %}
-    <h1>Rango 说...Hello, world!</h1>
-    {% endif %}
+    <div class="jumbotron">
+        {% if user.is_authenticated %}
+            <h1>Rango说...Hello, {{ user.get_full_name }}</h1>
+        {% else %}
+            <h1>Rango 说...Hello, world!</h1>
+        {% endif %}
+        <p>查找、分享你觉得很好的网站！</p>
+    </div>
 
-    {% if categories %}
-        <h2>分类列表</h2>
-        <ul>
-        {% for category in categories %}
-            <li><a href="{% url 'rango:category' category.url%}">{{ category.name }}</a></li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        <strong>现在没有任何分类</strong>
-    {% endif %}
+    <div class="row">
+        <div class="col-sm-6 col-lg-6">
+            {% if categories %}
+                <h2>访问量最多的分类</h2>
+                <ul>
+                    {% for category in categories %}
+                        <li><a href="{% url 'rango:category' category.url %}">{{ category.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <strong>现在没有任何分类</strong>
+            {% endif %}
+        </div>
+        <div class="col-sm-6 col-lg-6">
+            {% if pages %}
+                <h2>访问最多的页面</h2>
+                <ul>
+                    {% for page in pages %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a> - {{ page.category }}({{ page.views }}查看)</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <strong>现在没有任何页面</strong>
+            {% endif %}
+        </div>
+    </div>
 
-    {% if pages %}
-        <h2>访问最多的页面</h2>
-        <ul>
-        {% for page in pages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        <strong>现在没有任何页面</strong>
-    {% endif %}
+
+
+
 {% endblock %}
