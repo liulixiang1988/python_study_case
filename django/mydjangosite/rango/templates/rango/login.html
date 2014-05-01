@@ -3,13 +3,34 @@
 {% block tilte %}用户登录{% endblock %}
 
 {% block body_block %}
-    <h1>用户登录</h1>
-    <form method="post" action="{% url 'rango:login' %}">
-        {% csrf_token %}
-        用户名：<input type="text" name="username" value="" size="50"/>
-        <br/>
-        密码：<input type="password" name="password" value="" size="50" />
-        <br/>
-        <input type="submit" name="submit" value="添加"/>
-    </form>
+    <div class="jumbotron">
+        <h1>用户登录</h1>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4">
+                <form method="post" action="{% url 'rango:login' %}">
+                    <h2>请登录</h2>
+                    {% csrf_token %}
+                    {% if bad_details %}
+                        <p><strong>用户名或密码不正确！</strong></p>
+                    {% elif disabled_account %}
+                        <p><strong>你的账户已经被禁用了，所以无法登录！</strong></p>
+                    {% endif %}
+                    <div class="form-group">
+                        <label for="username">用户名：</label>
+                        <input type="text" class="form-control" id="username" placeholder="请在这儿输入用户名" name="username" value=""
+                               size="50"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码：</label>
+                        <input type="password" class="form-control" id="password" placeholder="请在这儿输入密码" name="password" value=""
+                              size="50"/>
+                    </div>
+                    <input type="submit" class="btn btn-default" name="submit" value="登录"/>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}
