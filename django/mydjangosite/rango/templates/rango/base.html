@@ -54,11 +54,21 @@
       </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar"></div>
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">{% block body_block %}{% endblock %}</div>
+        <div class="row row-offcanvas row-offcanvas-left">
+            <!-- sidebar -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
+                <div class="list-group">
+
+                </div>
+            </div>
+
+            <!-- block -->
+            <div class="col-xs-12 col-sm-9">{% block body_block %}{% endblock %}</div>
         </div>
     </div>
+    <footer>
+        <p>&copy; 福宝工作室</p>
+    </footer>
     <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </body>
