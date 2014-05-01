@@ -36,7 +36,9 @@ class PageForm(forms.ModelForm):
 
 
 class UserForm(forms.ModelForm):
-    password = forms.CharField(widget=forms.PasswordInput, help_text='密码')
+    username = forms.CharField(label='用户名', widget=forms.TextInput(attrs={'placeholder': '请输入用户名'}))
+    email = forms.EmailField(label='邮箱', widget=forms.EmailInput(attrs={'placeholder': '请输入邮箱'}))
+    password = forms.CharField(label='密码', widget=forms.PasswordInput(attrs={'placeholder': '请输入密码'}))
 
     class Meta:
         model = User
@@ -44,8 +46,9 @@ class UserForm(forms.ModelForm):
 
 
 class UserProfileForm(forms.ModelForm):
+    website = forms.CharField(label='网址', widget=forms.TextInput(attrs={'placeholder': '请输入网址'}), required=False)
+    picture = forms.ImageField(label='头像', required=False)
+
     class Meta:
         model = UserProfile
         fields = ('website', 'picture')
-
-
