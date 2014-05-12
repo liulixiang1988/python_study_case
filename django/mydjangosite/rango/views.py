@@ -168,3 +168,34 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect(reverse('rango:index'))
+
+
+@login_required
+def profile(request):
+    context_dict = {'cat_list': get_category_list()}
+    u = User.objects.get(username=request.user)
+
+    try:
+        up = UserProfile.objects.get(user=u)
+    except:
+        up = None
+
+    context_dict['user'] = u
+    context_dict['userprofile'] = up
+    return render(request, 'rango/profile.html', context_dict)
+
+
+def track_url(request, page_id):
+    #page_id = None
+    url = '/rango/'
+    # if request.method == 'GET':
+    #     if 'page_id' in request.GET:
+    #         page_id = request.GET['page_id']
+    try:
+        page = Page.objects.get(id=page_id)
+        page.views += 1
+        page.save()
+        url = page.url
+    except:
+        pass
+    return redirect(url)

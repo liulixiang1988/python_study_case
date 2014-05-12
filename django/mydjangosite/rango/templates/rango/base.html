@@ -37,7 +37,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
               {% if user.is_authenticated %}
-                  <li class="navbar-text">欢迎，{{ user.username }}</li>
+                  <li class="navbar-text">欢迎,</li>
+                  <li><a href="{% url 'rango:profile' %}">{{ user.username }}</a></li>
                     <li><a href="{% url 'rango:logout' %}">登出</a></li>
               {% else %}
                 <li><a href="{% url 'rango:register' %}">注册</a></li>

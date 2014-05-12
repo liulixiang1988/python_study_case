@@ -6,7 +6,9 @@
         {% if pages %}
             <ul>
             {% for page in pages %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li>
+                    <a href="{% url 'rango:track_url' page.id %}">{{ page.title }}</a>-({{ page.views }}查看)
+                </li>
             {% endfor %}
             </ul>
         {% else %}

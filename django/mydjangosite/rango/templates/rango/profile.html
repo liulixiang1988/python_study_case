@@ -1,0 +1,17 @@
+{% extends 'rango/base.html' %}
+{% block tilte %}个人主页{% endblock %}
+
+{% block body_block %}
+    <div class="jumbotron">
+        <h1>个人主页</h1>
+        <h2>{{ user.get_full_name }}</h2>
+        <h3>{{ user.email }}</h3>
+        {% if userprofile %}
+            <p>个人网站：<a href="{{ userprofile.website }}">{{ userprofile.website }}</a></p>
+            <br/>
+            {% if userprofile.picture %}
+                <img src="{{ userprofile.picture.url }}" />
+            {% endif %}
+        {% endif %}
+    </div>
+{% endblock %}
