@@ -12,7 +12,18 @@ from .forms import CategoryForm, PageForm, UserForm, UserProfileForm
 
 
 def decode_url(category_name_url):
-    return category_name_url.replace(' ', '_')
+    return category_name_url.replace('_', ' ')
+
+
+def encode_url(category_name):
+    return category_name.replace(' ', '_')
+
+
+def get_category_list():
+    cat_list = Category.objects.all()
+    for cat in cat_list:
+        cat.url = encode_url(cat.name)
+    return cat_list
 
 
 def index(request):
@@ -22,9 +33,10 @@ def index(request):
 
     page_list = Page.objects.order_by('-views')[:5]
     context_dict['pages'] = page_list
+    context_dict['cat_list'] = get_category_list()
 
     for category in category_list:
-        category.url = category.name.replace(' ', '_')
+        category.url = encode_url(category.name)
 
     if request.session.get('last_visit'):
         last_visit_time = request.session['last_visit']
@@ -44,7 +56,7 @@ def about(request):
 
 
 def category(request, category_name_url):
-    category_name = category_name_url.replace('_', ' ')
+    category_name = decode_url(category_name_url)
     context_dict = {'category_name': category_name,
                     'category_name_url': category_name_url}
     try:
