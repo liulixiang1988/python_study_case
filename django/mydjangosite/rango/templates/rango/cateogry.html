@@ -3,6 +3,14 @@
 {% block body_block %}
     <h1>{{ category_name }}</h1>
     {% if category %}
+        <div>
+        <p>
+            <b id="like_count">{{ category.likes }}</b>人喜欢这个类别
+            {% if user.is_authenticated %}
+                <button id="likes" data-catid="{{ category.id }}" class="btn btn-sm btn-primary" type="button">喜欢</button>
+            {% endif %}
+        </p>
+        </div>
         {% if pages %}
             <ul>
             {% for page in pages %}
