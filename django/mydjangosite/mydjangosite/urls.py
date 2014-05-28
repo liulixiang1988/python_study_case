@@ -11,6 +11,7 @@ urlpatterns = patterns('',
                        # Examples:
                        # url(r'^$', 'mydjangosite.views.home', name='home'),
                        # url(r'^mydjangosite/', include('mydjangosite.foo.urls')),
+                       url(r'^$', include('blog.urls', namespace='blog')),
                        url(r'^polls/', include('polls.urls', namespace='polls')),
                        url(r'^signups/', include('signups.urls', namespace='signups')),
                        url(r'^rango/', include('rango.urls', namespace='rango')),
@@ -20,7 +21,6 @@ urlpatterns = patterns('',
 
                        # Uncomment the next line to enable the admin:
                        url(r'^admin/', include(admin.site.urls)),
-                       url(r'^blog/', include('blog.urls', namespace='blog')),
 )
 
 if settings.DEBUG:
