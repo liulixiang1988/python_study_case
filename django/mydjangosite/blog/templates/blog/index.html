@@ -3,6 +3,12 @@
 {% block title %}首页－{% endblock %}
 
 {% block content %}
+    {% if is_category %}
+        <div class="well well-sm">
+            "{{ cat_name | safe }}"分类中共有<span class="label label-info">{{ posts | length }}</span>篇
+        </div>
+    {% endif %}
+
 {% for post in posts %}
 {% include 'blog/_post.html' %}
 {% endfor %}

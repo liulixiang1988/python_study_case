@@ -16,3 +16,11 @@ def post(request, pk):
     categories = Category.objects.all()
     return render(request, 'blog/post.html', {'post': post, 'categories': categories})
 
+
+def category(request, pk):
+    """文章分类"""
+    cat = get_object_or_404(Category, pk=pk)
+    posts = cat.post_set.all()
+    return render(request, 'blog/index.html', {'posts': posts, 'categories': Category.objects.all(),
+                                               'is_category': True, 'cat_name': cat.name})
+
