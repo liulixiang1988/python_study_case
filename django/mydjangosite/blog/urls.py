@@ -5,6 +5,6 @@ from django.conf.urls import patterns, url
 from . import views
 
 urlpatterns = patterns('',
-                url('^$', views.index, name='index'),
-                url('^post/(?P<pk>\d+)\$', views.post, name='post'),
+                url(r'^$', views.index, name='index'),
+                url(r'^post/(?P<pk>\d+)/$', views.post, name='post'),
                 )

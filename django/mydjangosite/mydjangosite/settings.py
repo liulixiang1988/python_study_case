@@ -138,7 +138,7 @@ INSTALLED_APPS = (
     'polls',
     #'auth',
     'signups',
-    #'south',
+    'south',
     'rango',
     'blog',
 )

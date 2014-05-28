@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h3>关于</h3>
+        <p>理想</p>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h3>文章分类</h3>
+        {% if categories %}
+        <ul class="list-unstyled">
+            {% for c in categories %}
+                <li>- {{ c.name | safe }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h3>登录</h3>
+        <p>
+            <a href="{% url 'admin:index' %}">登录</a><br/>
+            <a href="{% url 'admin:logout' %}">退出登录</a>
+        </p>
+    </div>
+</div>
