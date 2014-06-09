@@ -33,9 +33,8 @@ def vote():
     try:
         for i in range(3):
             rp = s.post(vote_url, data=vote_data, headers=headers)
-            print(rp.encoding)
-            with open('d:/%d' % i, 'w+', encoding='utf-8') as f:
-                f.write(rp.text)
+            rp.encoding = 'utf-8'
+            print(rp.text)
     except Exception as e:
         print(e)
 
