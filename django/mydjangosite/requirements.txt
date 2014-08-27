@@ -1,6 +1,7 @@
 Django==1.6.5
 Pillow==2.5.1
 South==1.0
+-e git://github.com/hersonls/djamin.git@db6193a3be2b4585c122fe599db7d214fda7f41c#egg=djamin-origin/HEAD
 django-grappelli==2.5.3
 django-suit==0.2.9
 markdown2==2.2.1
