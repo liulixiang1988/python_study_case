@@ -2,15 +2,27 @@
 
 .dashboard .module table th {
     width: 100%;
+    vertical-align: middle;
 }
 
 .dashboard .module table td {
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 .dashboard .module table td a {
     display: block;
     padding-right: .6em;
+}
+
+.dashboard #content-main {
+    float: left;
+    width: 69%;
+}
+
+.dashboard #content-related {
+    width: 30%;
+    margin: 0;
 }
 
 /* RECENT ACTIONS MODULE */
@@ -21,6 +33,7 @@
 
 ul.actionlist li {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 ul.actionlist li {
