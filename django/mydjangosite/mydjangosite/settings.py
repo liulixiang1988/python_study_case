@@ -105,9 +105,9 @@ TEMPLATE_LOADERS = (
     #     'django.template.loaders.eggs.Loader',
 )
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    "django.core.context_processors.request",
-    'django.contrib.auth.context_processors.auth'
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -137,7 +137,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'grappelli',
+    #'grappelli',
+    #'suit',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

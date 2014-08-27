@@ -17,7 +17,7 @@ urlpatterns = patterns('',
                        url(r'^signups/', include('signups.urls', namespace='signups')),
                        url(r'^rango/', include('rango.urls', namespace='rango')),
                        #url(r'^auth/', include('auth.urls', namespace='auth')),
-                       (r'^grappelli/', include('grappelli.urls')), # grappelli URLS
+                       #(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
                        # Uncomment the admin/doc line below to enable admin documentation:
                        url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
