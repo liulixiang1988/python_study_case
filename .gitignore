@@ -39,3 +39,6 @@ nosetests.xml
 
 #south migration
 migrations/
+
+#sqlite
+*.sqlite3
