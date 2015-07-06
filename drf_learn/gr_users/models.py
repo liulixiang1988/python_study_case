@@ -7,7 +7,7 @@ class GRUser(models.Model):
     first_name = models.TextField('姓', max_length=100)
     last_name = models.TextField('名', max_length=100)
     user = models.ForeignKey(User, verbose_name='用户')
-    shelfs = models.ManyToManyField(Shelf, verbose_name='书架')
+    shelves = models.ManyToManyField(Shelf, verbose_name='书架')
     books = models.ManyToManyField(Book, verbose_name='书')
 
     class Meta:
