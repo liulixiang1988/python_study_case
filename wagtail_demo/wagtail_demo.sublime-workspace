@@ -1,0 +1,808 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ver",
+				"verbose_name_plural"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"he",
+				"header	<header>"
+			],
+			[
+				"mini",
+				"minifyStyleSheets"
+			],
+			[
+				"comp",
+				"compileSass"
+			],
+			[
+				"AppP",
+				"AppPackageAdmin	class"
+			],
+			[
+				"verb",
+				"verbose_name_plural"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"AppI",
+				"AppInfoAdmin	class"
+			],
+			[
+				"mod",
+				"models	module"
+			],
+			[
+				"tem",
+				"templateUrl"
+			],
+			[
+				"con",
+				"config	AngularJS"
+			],
+			[
+				"show",
+				"showSaveBtn"
+			],
+			[
+				"note",
+				"notes"
+			],
+			[
+				"temp",
+				"templates"
+			],
+			[
+				"new",
+				"newerStories"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"err",
+				"err_msg"
+			],
+			[
+				"$ionic",
+				"$ionicPopup"
+			],
+			[
+				"st",
+				"style	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wagtail_demo/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 4673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/models.py",
+			"settings":
+			{
+				"buffer_size": 2493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/liulixiang/Documents/python/env/wagtail/lib/python3.4/site-packages/wagtail/wagtailadmin/edit_handlers.py",
+			"settings":
+			{
+				"buffer_size": 22331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/templates/blog/blog_index_page.html",
+			"settings":
+			{
+				"buffer_size": 474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/models.py",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/templates/blog/blog_page.html",
+			"settings":
+			{
+				"buffer_size": 420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/templates/core/home_page.html",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 249.0,
+		"last_filter": "pretty",
+		"selected_items":
+		[
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"html",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"html5",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"django",
+				"Django: Boilerplate"
+			],
+			[
+				"django vir",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"virtualenv",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma k",
+				"Set Syntax: Makefile"
+			]
+		],
+		"width": 557.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/blog",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/blog/templates",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/blog/templates/blog",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/core/static",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/core/templates/core",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/wagtail_demo",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/wagtail_demo/settings"
+	],
+	"file_history":
+	[
+		"/Users/liulixiang/Documents/python/env/wagtail/lib/python3.4/site-packages/wagtail/wagtailcore/models.py",
+		"/Users/liulixiang/Documents/python/python_study_case/drf_learn/books/models.py",
+		"/Users/liulixiang/Documents/python/python_study_case/wagtail_demo/wagtail_demo.sublime-project",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/index.html",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_base.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_banner.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_footer.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/base/_variables.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/base/_base.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_index.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_content.scss",
+		"/Users/liulixiang/Documents/WebDesign/动画/动画按顺序延迟/style.scss",
+		"/Users/liulixiang/Documents/WebDesign/动画/动画按顺序延迟/index.html",
+		"/Users/liulixiang/Documents/WebDesign/动画/index.html",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/css/application.css",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Web-网页布局基础.md",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_header.scss",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/CSS3扁平化风格博客.md",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/base/_index.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/base/_foundations.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/components/_logo.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/components/_buttons.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/layout/_logo.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/components/_index.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/scss/application.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/js/main.js",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/gulpfile.js",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/config.rb",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Gulp-Gulp笔记.md",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/sass/base/_normalize.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/sass/application.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/css/application.min.js",
+		"/Users/liulixiang/Documents/WebDesign/gulp_learn/gulp_basics/gulpfile.js",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/javascripts/main.js",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/sass/screen.scss",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/.bowerrc",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/lib/.bowerrc",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/js",
+		"/Users/liulixiang/Documents/WebDesign/扁平化博客/package.json",
+		"/Users/liulixiang/Desktop/待下载.md",
+		"/Users/liulixiang/Desktop/待下载-youtube.md",
+		"/Users/liulixiang/Documents/WebDesign/angular_learn/angular_tutorial/.bowerrc",
+		"/Users/liulixiang/Documents/android_dev/AndroidProgramming2e/13_Toolbar/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Android-常见问题汇总.md",
+		"/Users/liulixiang/Documents/android_dev/AndroidProgramming2e/13_Toolbar/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/使用Android开发一个博客阅读器-02 从头开始创建.md",
+		"/Users/liulixiang/Documents/android_dev/android_demo/BlogReader/src/liulx/blogreader/MainListActivity.java",
+		"/Users/liulixiang/Documents/android_dev/AndroidProgramming2e/13_Toolbar/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java",
+		"/Users/liulixiang/Documents/android_dev/AndroidProgramming2e/13_Toolbar/CriminalIntent/app/src/main/res/layout/fragment_crime_list.xml",
+		"/Users/liulixiang/Documents/ionic/reader/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/reader/www/index.html",
+		"/Users/liulixiang/Documents/ionic/reader/www/templates/infolist.html",
+		"/Users/liulixiang/Documents/ionic/reader/www/templates/category.html",
+		"/Users/liulixiang/Documents/ionic/reader/www/js/categorystore.js",
+		"/Users/liulixiang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/liulixiang/Documents/python/app-host/app/models.py",
+		"/Users/liulixiang/Documents/python/app-host/app/views.py",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Java-常用方法.md",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Android Studio使用总结.md",
+		"/Users/liulixiang/Documents/python/vmaig_blog/vmaig_auth/views.py",
+		"/Users/liulixiang/Documents/python/app-host/app_host/settings.py",
+		"/Users/liulixiang/Documents/python/vmaig_blog_v3.1/vmaig_auth/views.py",
+		"/Users/liulixiang/Documents/python/vmaig_blog_v3.1/vmaig_blog/settings.py",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/JS笔记-变量与对象.md",
+		"/Users/liulixiang/Documents/python/app-host/app/apps.py",
+		"/Users/liulixiang/Documents/python/app-host/app_host/wsgi.py",
+		"/Users/liulixiang/Documents/python/app-host/app/templates/app/snippet/app_info.html",
+		"/Users/liulixiang/Documents/python/app-host/app/templates/app/index.html",
+		"/Users/liulixiang/Documents/python/app-host/requirements.txt",
+		"/Users/liulixiang/Documents/uninstall_brew.sh",
+		"/Users/liulixiang/Documents/IOS_DEV/download.plist",
+		"/Users/liulixiang/Documents/python/app-host/app/urls.py",
+		"/Users/liulixiang/Documents/python/app-host/app/templates/app/snippet/app_list.html",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/web-CSS3笔记-03变形transform.md",
+		"/Users/liulixiang/Documents/WebDesign/css3-learning/sass/csshover.scss",
+		"/Users/liulixiang/Documents/WebDesign/css3-learning/stylesheets/csshover.css",
+		"/Users/liulixiang/Documents/WebDesign/css3-learning/csshover.html",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/web-CSS3笔记-02悬停效果.md",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/web-css3笔记-01过渡transition.md",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/web-css3笔记.md",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/web-css3笔记",
+		"/Users/liulixiang/Documents/blog/liulixiang1988.github.io/content/Android学习笔记-01 Android 四大核心组件之Activity.md",
+		"/Users/liulixiang/Documents/WebDesign/css3-learning/sass/transition.scss",
+		"/Users/liulixiang/Documents/WebDesign/css3-learning/stylesheets/transition.css",
+		"/Users/liulixiang/Documents/python/app_host/app/models.py",
+		"/Users/liulixiang/Documents/python/app_host/app/templates/app/index.html",
+		"/Users/liulixiang/Documents/python/app_host/app_host/urls.py",
+		"/Users/liulixiang/Documents/python/app_host/app/static/app/sass/screen.scss",
+		"/Users/liulixiang/Documents/python/app_host/app/templates/app/base.html",
+		"/Users/liulixiang/Documents/python/app_host/app_host/settings.py",
+		"/Users/liulixiang/Documents/python/app_host/app/static/app/scss/main.scss",
+		"/Users/liulixiang/Documents/python/tlys/1/youth_league/models.py",
+		"/Users/liulixiang/Documents/python/app_host/app/admin.py",
+		"/Users/liulixiang/Documents/python/tlys/1/youth_league/admin.py",
+		"/Users/liulixiang/Documents/python/Django Manage Commands",
+		"/Users/liulixiang/Documents/ionic/my-notes/www/index.html",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/js/upload.js",
+		"/Users/liulixiang/Documents/ionic/tgbpm/package.json",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/templates/upload.html",
+		"/Users/liulixiang/Documents/ionic/tgbpm/config.xml",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/index.html",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-sidemenu/www/index.html",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-sidemenu/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-tabs/www/templates/settings.html",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-tabs/www/templates/home.html",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-tabs/www/index.html",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-tabs/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/ionic-learning/my-tabs/www/templates/details.html",
+		"/Users/liulixiang/Documents/ionic/my-notes/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/my-notes/www/templates/list.html",
+		"/Users/liulixiang/Documents/ionic/my-notes/www/templates/edit.html",
+		"/Users/liulixiang/Documents/ionic/my-notes/www/js/notestore.js",
+		"/Users/liulixiang/Documents/ionic/my-notes/config.xml",
+		"/Users/liulixiang/Documents/ionic/reader/www/css/style.css",
+		"/Users/liulixiang/Documents/ionic/read/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/read/www/index.html",
+		"/Users/liulixiang/Documents/ionic/read/config.xml",
+		"/Users/liulixiang/Documents/ionic/reader/config.xml",
+		"/Users/liulixiang/Documents/ionic/reader/README.md",
+		"/Users/liulixiang/Documents/ionic/tgbpm/platforms/android/build.gradle",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/templates/menu.html",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/templates/login.html",
+		"/Users/liulixiang/Documents/ionic/tgbpm/platforms/ios/铜冠BPM.plist",
+		"/Users/liulixiang/Documents/ionic/tgbpm/www/js/login.js",
+		"/Users/liulixiang/Documents/ionic/waterage/www/js/app.js",
+		"/Users/liulixiang/Documents/ionic/waterage/www/js/camera.js",
+		"/Users/liulixiang/Documents/ionic/waterage/info.txt"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BlogPage",
+			"div",
+			"minifyStyleSheets",
+			"sass",
+			"scss",
+			"javascripts",
+			"stylesheets",
+			"getString",
+			"print",
+			"\n#",
+			"{\n            name: \"Ionic\",\n            url: \"http://www.reddit.com/r/ionic/.json\"\n        }",
+			"><",
+			"android",
+			"showQR"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"minifyCss",
+			"js",
+			"css"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wagtail_demo/settings/base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								992
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 244.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2362,
+								2362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1536.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/liulixiang/Documents/python/env/wagtail/lib/python3.4/site-packages/wagtail/wagtailadmin/edit_handlers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20895,
+								20905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog/templates/blog/blog_index_page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "core/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "blog/templates/blog/blog_page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "core/templates/core/home_page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 154.0
+	},
+	"pinned_build_system": "",
+	"project": "wagtail_demo.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"categor",
+				"reader/www/js/categorystore.js"
+			],
+			[
+				"app.js",
+				"my-notes/www/js/app.js"
+			],
+			[
+				"",
+				"reader/www/js/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
