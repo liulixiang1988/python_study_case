@@ -43,7 +43,12 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'DjangoUeditor',
-    'kczy',
+
+    'Introduction',
+    'DataManagement',
+    'LiteratureManagement',
+    'ImageManagement',
+    'VideoManagement',
 )
 
 MIDDLEWARE_CLASSES = (

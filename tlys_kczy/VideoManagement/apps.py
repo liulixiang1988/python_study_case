@@ -6,5 +6,5 @@ __author__ = 'liulixiang'
 
 
 class AppsConfig(AppConfig):
-    name = u'kczy'
-    verbose_name = u'矿产资源'
+    name = u'VideoManagement'
+    verbose_name = u'5-视频管理'
