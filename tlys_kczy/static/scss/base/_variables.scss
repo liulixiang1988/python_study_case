@@ -1,0 +1,60 @@
+@using "utf-8";
+/*base*/
+$h2-font-size: 30px;
+$hr-width: 100%;
+$hr-height: 2px;
+$hr-margin: 5px auto;
+$hr-bg: #fff;
+/*navbar*/
+$navbar-height : 50px;
+$navbar-bgColor: #ccc;
+$navbar-menu-float: right;
+$navbar-logo-float: left;
+//菜单项右侧外边距
+$navbar-menu-mright: 20px;
+//菜单项的颜色
+$navbar-menu-color : #fff;
+
+/*banner*/
+$banner-height : 700px;
+$banner-bgColor: #777;
+$banner-color: #fff;
+//inner最大宽度
+$banner-inner-mxwidth: 300px;
+$banner-inner-top: 160px;
+$banner-inner-h1-padding: 12px;
+$banner-inner-h1-border: 2px solid;
+$banner-inner-more-mgTop: 200px;
+$banner-inner-subheading-lineHeight: 30px;
+$banner-inner-subheading-margin: 30px;
+$banner-button-padding: 14px 60px;
+/*components*/
+//button
+$button-border: none;
+$button-bgColor: #337ab7;
+$button-bgColor-hover: #2e6da4;
+$button-color: #eee;
+$button-padding: 20px;
+//logo
+$logo-fontSize: 20px;
+$logo-fontWeight: 700;
+$logo-letterSpacing: 1px;
+$logo-float: left;
+$logo-color: #fff;
+$logo-lineHeight: $navbar-height;
+$logo-padding: 0 0 0 10px;
+
+/*section*/
+//green section
+$green-section-text-align: center;
+$green-section-color: #fff;
+$green-section-bg: #33869B;
+$green-section-padding: 100px;
+$green-section-hr-bg: #eee;
+$green-section-hr-width: 60%;
+$green-icon-size: 80px;
+$green-icon-color: #2e6da4;
+$green-icon-transform:rotate(45deg);
+$green-icon-margin: 20px;
+$green-icon-group-margin: 20px;
+$wrapper-max-width: 1080px;

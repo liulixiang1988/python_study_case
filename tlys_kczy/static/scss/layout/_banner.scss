@@ -1,0 +1,32 @@
+#banner{
+    background: $banner-bgColor;
+    height: $banner-height;
+    color: $banner-color;
+
+    .inner {
+        max-width: $banner-inner-mxwidth;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top: $banner-inner-top;
+        h1{
+            margin: 0;
+            padding: $banner-inner-h1-padding;
+            border-top: $banner-inner-h1-border;
+            border-bottom: $banner-inner-h1-border;
+        }
+
+        .sub-heading{
+            line-height: $banner-inner-subheading-lineHeight;
+            margin: $banner-inner-subheading-margin;
+        }
+
+        button{
+            padding: $banner-button-padding;
+        }
+
+        .more {
+            margin-top: $banner-inner-more-mgTop;
+        }
+    }
+}

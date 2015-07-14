@@ -1,0 +1,14 @@
+.logo{
+    font-size: $logo-fontSize;
+    font-weight: $logo-fontWeight;
+    letter-spacing: $logo-letterSpacing;
+    display: inline-block;
+    line-height: $logo-lineHeight;
+    float: $logo-float;
+    padding: $logo-padding;
+
+    a{
+        color: $logo-color;
+        text-decoration: none;
+    }
+}

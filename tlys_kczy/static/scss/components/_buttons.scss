@@ -1,0 +1,10 @@
+button{
+    border: $button-border;
+    background-color: $button-bgColor;
+    color: $button-color;
+    padding: $button-padding;
+
+    &:hover,&:focus{
+        background-color: $button-bgColor-hover;
+    }
+}
