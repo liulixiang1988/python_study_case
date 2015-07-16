@@ -2,7 +2,7 @@
     width:340px;
     border: 1px solid #E8E8E8;
     background-color: #FFF;
-    height: 250px;
+    height: 270px;
     float:left;
 
     //新闻列表
@@ -17,8 +17,21 @@
             border-bottom: 1px dotted #CCC;
             height: 33px;
             line-height: 33px;
+            clear: both;
+            // overflow:hidden;
+            // text-overflow:ellipsis; 
 
             a{
+                float:left;
+                _display:inline;
+                max-width: 20em;
+                white-space: nowrap;
+                _white-space: normal;
+                _height: 33px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                _background: transparent;
+                
                 &:link, &:visited{
                     text-decoration: none;
                     color: #000;
@@ -31,8 +44,10 @@
             }
 
             span{
+                _position: relative;
                 color: #999;
                 float: right;
+                _display: inline;
             }
         }
     }
@@ -82,12 +97,13 @@
     width:300px;
     float: left;
     .video{
-        height: 250px;
+        height: 270px;
         margin-bottom: 10px;
         border: 1px solid #E8E8E8;
 
         &_content{
-            height:250px;
+            height:260px;
+            margin-top: 10px;
             text-align: center;
         }
     }

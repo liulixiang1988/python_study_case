@@ -22,7 +22,7 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^ueditor/', include('DjangoUeditor.urls')),
-    url(r'^home/', include('Home.urls')),
+    url(r'^home/', include('Home.urls', namespace='home')),
 ]
 
 urlpatterns += patterns(

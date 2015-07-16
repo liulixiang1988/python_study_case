@@ -4,19 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>铜陵有色矿产资源中心-{% block title %}{%endblock%}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{% static 'css/application.css' %}">
     <script src="{% static 'js/app.js' %}"></script>
-    <script src="{% static 'js/myFocus-2.0.1.min.js' %}"></script>
-    <script src="{% static  'js/mf-pattern/mF_YSlider.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'js/mf-pattern/mF_YSlider.css' %}">
-    <script>
-    myFocus.set({
-        id: 'picBox'
-    });
-    </script>
+    {% block script %}
+    {% endblock %}
 </head>
 
 <body>
@@ -24,6 +18,7 @@
         <div class="top_content">
             <span> 您好！欢迎光临铜陵有色</span>
             <ul>
+                <li><a href="/admin" target="_blank">后台管理</a></li>
                 <li>
                     <a onclick="AddFavorite(window.location,document.title);" href="javascript:void(0);">添加收藏</a>
                 </li>
@@ -41,7 +36,7 @@
         <!-- logo结束 -->
         <div class="nav">
             <ul>
-                <li><a href="#">首页</a></li>
+                <li><a href="{% url 'index'%}">首页</a></li>
                 <li><a href="#">简介</a></li>
                 <li><a href="#">资料</a></li>
                 <li><a href="#">文献</a></li>
@@ -50,64 +45,9 @@
             </ul>
         </div>
         <!-- nav结束 -->
-        <div class="focus" id="picBox">
-            <div class="loading"><img src="{% static 'img/loading.gif' %}" alt="图片加载中"></div>
-            <div class="pic">
-                <ul>
-                    <li><img src="{% static 'img/ad2.jpg' %}" alt=""></li>
-                    <li><img src="{% static 'img/ad3.jpg' %}" alt=""></li>
-                    <li><img src="{% static 'img/ad4.jpg' %}" alt=""></li>
-                </ul>
-            </div>
-        </div>
-        <!-- ad结束 -->
+        {% block focus %}{%endblock%}
         <div class="main">
-            <div class="infos">
-                <div class="title">
-                    <h2 class="title_left">资料</h2><span class="title_right"><a href="news.html">更多&gt;&gt;</a></span>
-                </div>
-                <!-- title结束 -->
-                <div class="info-list">
-                    <ul>
-                        <li><span>2014-06-01</span><a href="news.html">【慕客访谈 用户篇】“有为屌丝”在路上</a></li>
-                        <li><span>2014-06-01</span><a href="news.html">【有奖活动】给父亲的三行书信</a></li>
-                        <li><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
-                        <li><a href="news.html">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-05-28</span></li>
-                    </ul>
-                </div>
-                <!-- info-list结束 -->
-            </div>
-            <!-- info结束 -->
-            <div class="course">
-                <div class="title">
-                    <h2 class="title_left">文献</h2><span class="title_right"><a href="news.html">更多&gt;&gt;</a></span>
-                </div>
-                <!-- title结束 -->
-                <div class="info-list">
-                    <ul>
-                        <li><span>2014-06-01</span><a href="news.html">【慕客访谈 用户篇】“有为屌丝”在路上</a></li>
-                        <li><span>2014-06-01</span><a href="news.html">【有奖活动】给父亲的三行书信</a></li>
-                        <li><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
-                        <li><a href="news.html">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-05-28</span></li>
-                    </ul>
-                </div>
-                <!-- info-list结束 -->
-            </div>
-            <!-- course结束 -->
-            <div class="sidebar">
-                <div class="video">
-                    <div class="title">
-                        <h2 class="title_left">视频</h2><span class="title_right"><a href="news.html">更多&gt;&gt;</a></span>
-                    </div>
-                    <!-- title结束 -->
-                    <p class="video_content">
-                        <embed src="http://player.youku.com/player.php/sid/XNjkzMDE5MTUy/v.swf" allowfullscreen="true" quality="high" width="220" height="140" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
-                    </p>
-                    <!-- video_content结束 -->
-                </div>
-                <!-- video结束 -->
-            </div>
-            <!-- sidebar结束 -->
+            {% block main_content %}{% endblock %}
         </div>
         <!-- main结束 -->
         <div class="footer">
