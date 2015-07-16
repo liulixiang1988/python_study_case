@@ -1,0 +1,13 @@
+//焦点图
+.focus{
+    clear:both;
+    height: 310px;
+    overflow: hidden;
+    //margin-top: 5px;
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+

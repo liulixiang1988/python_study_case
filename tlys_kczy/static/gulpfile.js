@@ -18,15 +18,15 @@ gulp.task('concatScripts', function() {
         .pipe(maps.init())
         .pipe(concat("app.js"))
         .pipe(maps.write('./'))
-        .pipe(gulp.dest('js'));
+        .pipe(gulp.dest('static/js'));
 });
 
 //压缩JavaScript
 gulp.task('minifyScripts', ['concatScripts'], function() {
-    return gulp.src("js/app.js")
+    return gulp.src("static/js/app.js")
         .pipe(uglify())
         .pipe(rename('app.min.js'))
-        .pipe(gulp.dest('js/'));
+        .pipe(gulp.dest('static/js/'));
 });
 
 //编译SASS
@@ -34,19 +34,19 @@ gulp.task('compileSass', function() {
     return gulp.src('scss/*.scss')
         .pipe(compass({
             config_file: './config.rb',
-            css: 'css',
+            css: 'static/css',
             sass: 'scss',
             sourcemap: true
         }))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('static/css'));
 });
 
 //压缩CSS
 gulp.task('minifyCss', ['compileSass'], function(){
-    return gulp.src("css/application.css")
+    return gulp.src("static/css/application.css")
         .pipe(minifyCss({compatibility: 'ie8'}))
         .pipe(rename('application.min.css'))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('static/css'));
 });
 
 //监视
@@ -57,15 +57,12 @@ gulp.task('watchFiles', function() {
 
 //清理
 gulp.task('clean', function() {
-    del(['static', 'css/application*.css*', 'js/app*.js*']);
+    del(['static/css', 'static/img', 'static/css/application*.css*', 'static/js/app*.js*', 'css/application*.css*', 'js/app*.js*']);
 });
 
 //构建
 gulp.task('build', ["minifyScripts", "minifyCss"], function() {
-    gulp.src(["css/application.min.css",
-            "js/app.min.js",
-            "img/**",
-            "fonts/**"
+    gulp.src(["img/**", "fonts/**"
         ], {
             base: './'
         })

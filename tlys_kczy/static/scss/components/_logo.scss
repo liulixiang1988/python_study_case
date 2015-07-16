@@ -1,14 +1,36 @@
-.logo{
-    font-size: $logo-fontSize;
-    font-weight: $logo-fontWeight;
-    letter-spacing: $logo-letterSpacing;
-    display: inline-block;
-    line-height: $logo-lineHeight;
-    float: $logo-float;
-    padding: $logo-padding;
+    //logo区
+    .logo{
+        height: 80px;
+        background: #76BCF8;
 
-    a{
-        color: $logo-color;
-        text-decoration: none;
+        //左侧公司图标
+        &_left{
+            margin-left: 10px;
+            padding-left: 70px;
+            float:left;
+            line-height: 80px;
+            font-size: 36px;
+            font-family: 微软雅黑;
+            text-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+            color: #fff;
+            background: url(../img/logo.png) no-repeat;
+            background-size: 60px 60px;
+            background-position: left center;
+        }
+
+        //右侧热线
+        &_right{
+            width:300px;
+            float:right;
+            height:28px;
+            margin-top:30px;
+            color:#fff;
+
+            img{
+                vertical-align: middle;
+                @include border-radius(25px);
+
+                margin-right: 10px;
+            }
+        }
     }
-}

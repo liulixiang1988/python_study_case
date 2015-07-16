@@ -1,0 +1,94 @@
+.infos{
+    width:340px;
+    border: 1px solid #E8E8E8;
+    background-color: #FFF;
+    height: 250px;
+    float:left;
+
+    //新闻列表
+    .info-list{
+        margin-top: 20px;
+        li{   
+            list-style-type: none;
+            background: url(../img/news_list.png) no-repeat left center; 
+            padding-left: 10px;
+            margin: 8px;
+            font-size: 12px;
+            border-bottom: 1px dotted #CCC;
+            height: 33px;
+            line-height: 33px;
+
+            a{
+                &:link, &:visited{
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                &:hover, &:active{
+                    text-decoration: none;
+                    color: #F00;
+                }
+            }
+
+            span{
+                color: #999;
+                float: right;
+            }
+        }
+    }
+}
+
+.title{
+    height: 35px;
+    @include background(linear-gradient(#fefefe, #e4e4e4));
+    border-bottom: 2px solid #ff0000;
+    
+    //新闻中心
+    &_left{
+        width: 70%;
+        line-height: 35px; //垂直居中
+        font-family: "微软雅黑";
+        font-size: 14px;
+        font-weight: bold;
+        color: #786F66;
+        float: left; 
+        padding-left: 20px;
+    }
+
+    //更多
+    &_right{
+        width:20%;
+        line-height: 35px;
+        float:right;
+        text-align: right;
+
+        a{
+            text-decoration: none;
+            color: #999999;
+            font-family: "宋体";
+            font-size: 10px;
+            font-weight: normal;
+            padding-right: 10px;
+        }
+    }
+}
+
+.course{
+    @extend .infos;
+    margin: 0 7px;
+}
+
+.sidebar{
+    width:300px;
+    float: left;
+    .video{
+        height: 250px;
+        margin-bottom: 10px;
+        border: 1px solid #E8E8E8;
+
+        &_content{
+            height:250px;
+            text-align: center;
+        }
+    }
+}

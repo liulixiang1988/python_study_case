@@ -1,0 +1,35 @@
+.nav{
+    height: 37px;
+    line-height: 37px;
+    margin: 0;
+    //background-color: #cc1b1b;
+    @include background(linear-gradient(#cc1b1b, #FB4444));
+    ul{
+        li{
+            list-style: none;
+            float:left;
+
+            a{
+                text-decoration: none;
+                text-align: center;
+                font-size: 16px;
+                font-family: 微软雅黑;
+                line-height: 37px;
+                display: inline-block;
+                width: 100px;
+                color: #fff;
+
+                &:hover, &:active{
+                    color:#FFF;
+                    @include background(linear-gradient(#FB4444, #cc1b1b));
+                }
+            }
+        }
+    }
+
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

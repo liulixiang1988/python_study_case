@@ -1,0 +1,21 @@
+.footer{
+    clear: both;
+    min-height:100px;
+    _height:100px;
+    text-align: center;
+    margin-top: 10px;
+
+    .company{
+        @include background(linear-gradient(#cc1b1b, #FB4444));
+        color: #FFF;
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+
+    .info{
+        padding-top:20px;
+        background-color: #E8E8E8;
+        line-height: 30px;
+    }
+}

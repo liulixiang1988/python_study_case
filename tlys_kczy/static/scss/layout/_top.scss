@@ -1,0 +1,32 @@
+//头信息
+.top_content{
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    font-family: "宋体";
+    background: url(../img/date_1.jpg) repeat-x;
+    padding: 0 20px;
+
+
+    span{
+        float:left;
+    }
+
+    li{
+        list-style-type: none;
+        float: right;
+        width:80px;
+    }
+
+    a{
+        &:link, &:visited{
+            color:#000;
+            text-decoration: none;
+        }
+
+        &:hover, &:active{
+            color:#D90;
+            text-decoration: none;
+        }
+    }
+}
