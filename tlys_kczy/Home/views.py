@@ -56,3 +56,8 @@ def datas(request):
                       'pages': page_range,
                       'num_pages': p.num_pages
                   })
+
+
+def data(request, article_id):
+    info = Data.objects.get(id=article_id)
+    return render(request, 'home/details.html', locals())

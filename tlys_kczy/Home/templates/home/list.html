@@ -19,7 +19,7 @@
             <ul>
                 {% for info in infos %}
                 <li><span>{{info.create_date|date:"Y-m-d"}}</span>
-                    <a href="news.html">{{info.title}}</a>
+                    <a href="{% url 'home:data' info.id%}">{{info.title}}</a>
                 </li>
                 {% endfor %}
             </ul>
