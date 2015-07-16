@@ -1,56 +1,57 @@
+//新闻列表
+@mixin info-list($a-max-width: 20em){
+    //margin-top: 20px;
+    li{   
+        list-style-type: none;
+        background: url(../img/news_list.png) no-repeat left center; 
+        padding-left: 10px;
+        margin: 8px;
+        font-size: 12px;
+        border-bottom: 1px dotted #CCC;
+        height: 33px;
+        line-height: 33px;
+        clear: both;
+        // overflow:hidden;
+        // text-overflow:ellipsis; 
+
+        a{
+            float:left;
+            _display:inline;
+            max-width: $a-max-width;
+            white-space: nowrap;
+            _white-space: normal;
+            _height: 33px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            _background: transparent;
+            
+            &:link, &:visited{
+                text-decoration: none;
+                color: #000;
+            }
+
+            &:hover, &:active{
+                text-decoration: none;
+                color: #F00;
+            }
+        }
+
+        span{
+            _position: relative;
+            color: #999;
+            float: right;
+            _display: inline;
+        }
+    }
+}
+
 .infos{
     width:340px;
     border: 1px solid #E8E8E8;
     background-color: #FFF;
     height: 270px;
     float:left;
-
-    //新闻列表
-    .info-list{
-        margin-top: 20px;
-        li{   
-            list-style-type: none;
-            background: url(../img/news_list.png) no-repeat left center; 
-            padding-left: 10px;
-            margin: 8px;
-            font-size: 12px;
-            border-bottom: 1px dotted #CCC;
-            height: 33px;
-            line-height: 33px;
-            clear: both;
-            // overflow:hidden;
-            // text-overflow:ellipsis; 
-
-            a{
-                float:left;
-                _display:inline;
-                max-width: 20em;
-                white-space: nowrap;
-                _white-space: normal;
-                _height: 33px;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                _background: transparent;
-                
-                &:link, &:visited{
-                    text-decoration: none;
-                    color: #000;
-                }
-
-                &:hover, &:active{
-                    text-decoration: none;
-                    color: #F00;
-                }
-            }
-
-            span{
-                _position: relative;
-                color: #999;
-                float: right;
-                _display: inline;
-            }
-        }
-    }
+    @include info-list();
 }
 
 .title{

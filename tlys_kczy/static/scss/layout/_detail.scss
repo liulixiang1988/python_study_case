@@ -1,0 +1,39 @@
+.detail{
+    width: 100%;
+    min-height: 350px;
+    _height: 350px;
+    border: 1px solid #E8E8E8;
+    background-color: #FFF;
+
+    //新闻类别头部标题
+    h2{
+        height:35px;
+        line-height: 35px;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        color: #666;
+        background: url(../img/type_bg.png) repeat-x;
+        padding-left: 20px;
+    }
+
+    //新闻标题
+    h1{
+        font-family: "微软雅黑";
+        font-size: 20px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    &_newsInfo{
+        color: #666;
+        text-align: center;
+        margin: 10px 50px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        border-bottom: 1px dotted #666;
+    }
+
+    &_newsContent{
+        padding: 10px 40px;
+    }
+}

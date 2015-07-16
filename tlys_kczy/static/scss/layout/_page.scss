@@ -1,0 +1,23 @@
+//页码
+.page{
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+
+    a{
+        border: 1px solid #E8E8E8;
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px 10px;
+        display: inline-block; //行内块级元素
+
+        &:link, &:visited{
+            color: #000;
+        }
+
+        &.active, &:hover, &:active{
+            color: #FFF;
+            background-color: #cc1b1b;
+        }
+    }
+}

@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{% static 'css/application.css' %}">
+    {% block stylesheet%}{%endblock%}
     <script src="{% static 'js/app.js' %}"></script>
     {% block script %}
     {% endblock %}
@@ -37,15 +38,19 @@
         <div class="nav">
             <ul>
                 <li><a href="{% url 'index'%}">首页</a></li>
-                <li><a href="#">简介</a></li>
-                <li><a href="#">资料</a></li>
+                <li><a href="{% url 'home:intro'%}">简介</a></li>
+                <li><a href="{% url 'home:datas'%}">资料</a></li>
                 <li><a href="#">文献</a></li>
                 <li><a href="#">照片</a></li>
                 <li><a href="#">视频</a></li>
             </ul>
         </div>
         <!-- nav结束 -->
-        {% block focus %}{%endblock%}
+        {% block focus %}
+        <div class="focus" id="picBox"  style="height:243px">
+            <img src="{% static 'img/banner.jpg' %}" alt="my focus">
+        </div><!-- focus结束 -->
+        {%endblock%}
         <div class="main">
             {% block main_content %}{% endblock %}
         </div>
