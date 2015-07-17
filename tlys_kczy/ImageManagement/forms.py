@@ -8,4 +8,4 @@ class ImagesForm(ModelForm):
     class Meta:
         model = Images
         fields = ['title',
-                  'content']
+                  'content', 'categorys']

@@ -1,0 +1,44 @@
+{% extends "home/base.html" %}
+{% block title %}视频{%endblock%}
+
+{% block main_content %}
+<div class="list_main">
+    <div class="news_type">
+        <h2>视频类别</h2>
+        <div class="news_type_content">
+            <ul>
+                {% for category in dataCategorys %}
+                <li><a href="{% url 'home:videos'%}?category={{category.category_name}}" {% if category_name == category.category_name%}class="active"{%endif%}>{{category.category_name}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div><!-- news_type结束 -->
+    <div class="list_box">
+        <h2>视频中心</h2>
+        <div class="info-list">
+            <ul>
+                {% for info in infos %}
+                <li><span>{{info.create_date|date:"Y-m-d"}}</span>
+                    <a href="{% url 'home:video' info.id%}">{{info.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div><!-- news_list结束 -->
+        <div class="page">
+            <a href="{% url 'home:videos'%}?category={{category.category_name}}&page=1">首页</a>
+            {%if result_page.has_previous %}
+            <a href="{% url 'home:videos'%}?category={{category.category_name}}&page={{result_page.previous_page_number}}">上一页</a>
+            {%endif%}
+
+            {% for p in pages %}
+            <a href="{% url 'home:videos'%}?category={{category.category_name}}&page={{p}}" {% if p == page %}class="active"{% endif %}>{{p}}</a>
+            {%endfor%}
+
+            {%if result_page.has_next %}
+            <a href="{% url 'home:videos'%}?category={{category.category_name}}&page={{result_page.next_page_number}}">下一页</a>
+            {%endif%}
+            <a href="{% url 'home:videos'%}?category={{category.category_name}}&page={{num_pages}}">末页</a>
+        </div><!-- page结束 -->
+    </div><!-- list_box结束 -->
+</div><!-- list_main结束 -->
+{% endblock %}

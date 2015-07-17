@@ -18,9 +18,9 @@ myFocus.set({
     <div class="loading"><img src="{% static 'img/loading.gif' %}" alt="图片加载中"></div>
     <div class="pic">
         <ul>
-            <li><img src="{% static 'img/banner1.jpg' %}" alt=""></li>
-            <li><img src="{% static 'img/banner2.jpg' %}" alt=""></li>
-            <li><img src="{% static 'img/banner3.jpg' %}" alt=""></li>
+            <li><a href="{% url 'home:images'%}"><img src="{% static 'img/banner1.jpg' %}" alt=""></a></li>
+            <li><a href="{% url 'home:images'%}"><img src="{% static 'img/banner2.jpg' %}" alt=""></a></li>
+            <li><a href="{% url 'home:images'%}"><img src="{% static 'img/banner3.jpg' %}" alt=""></a></li>
         </ul>
     </div>
 </div>
@@ -65,7 +65,7 @@ myFocus.set({
 <div class="sidebar">
     <div class="video">
         <div class="title">
-            <h2 class="title_left">视频</h2><span class="title_right"><a href="news.html">更多&gt;&gt;</a></span>
+            <h2 class="title_left">视频</h2><span class="title_right"><a href="{% url 'home:videos'%}">更多&gt;&gt;</a></span>
         </div>
         <!-- title结束 -->
         <p class="video_content">

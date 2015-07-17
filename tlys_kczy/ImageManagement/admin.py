@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 from django.contrib import admin
-from .models import Images
+from .models import Images, ImageCategory
 from .forms import ImagesForm
 
 
@@ -18,4 +18,9 @@ class ImagesAdmin(admin.ModelAdmin):
         obj.author = request.user
         obj.save()
 
+
+class ImagesCategoryAdmin(admin.ModelAdmin):
+    list_display = ('category_name',)
+
 admin.site.register(Images, ImagesAdmin)
+admin.site.register(ImageCategory, ImagesCategoryAdmin)

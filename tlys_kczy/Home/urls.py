@@ -11,4 +11,12 @@ urlpatterns = patterns('',
                        url(r'^literatures/$',
                            views.literatures, name='literatures'),
                        url(r'^literature/(?P<article_id>\d+)/$',
-                           views.literature, name="literature"),)
+                           views.literature, name="literature"),
+                       url(r'^images/$',
+                           views.images, name='images'),
+                       url(r'^image/(?P<article_id>\d+)/$',
+                           views.image, name="image"),
+                       url(r'^videos/$',
+                           views.videos, name='videos'),
+                       url(r'^video/(?P<article_id>\d+)/$',
+                           views.video, name="video"),)

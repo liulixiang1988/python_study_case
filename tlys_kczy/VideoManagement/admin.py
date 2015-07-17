@@ -1,7 +1,11 @@
 # -*- coding:utf-8 -*-
 from django.contrib import admin
-from .models import Videos
+from .models import Videos, VideoCategory
 from .forms import VideosForm
+
+
+class VideoCategoryAdmin(admin.ModelAdmin):
+    list_display = ('category_name',)
 
 
 class VideosAdmin(admin.ModelAdmin):
@@ -20,3 +24,4 @@ class VideosAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Videos, VideosAdmin)
+admin.site.register(VideoCategory, VideoCategoryAdmin)

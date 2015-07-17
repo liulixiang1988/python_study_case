@@ -1,8 +1,8 @@
 {% extends "home/base.html"%}
-{% block title %}简介{%endblock%}
+{% block title %}{{info.title}}{%endblock%}
 {% block main_content %}
 <div class="detail">
-    <h2>简介</h2>
+    <h2>信息详情</h2>
     <h1>{{info.title}}</h1>
     <p  class="detail_newsInfo">{% if info.author %}发布人：{{info.author}} {%endif%}发布时间：{{info.create_date| date:"Y-m-d"}}</p>
     <div class="detail_newsContent">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>铜陵有色矿产资源中心-{% block title %}{%endblock%}</title>
+    <title>安徽铜陵矽卡岩型铜多金属矿基地-{% block title %}{%endblock%}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{% static 'css/application.css' %}">
@@ -17,7 +17,7 @@
 <body>
     <div class="wrap">
         <div class="top_content">
-            <span> 您好！欢迎光临铜陵有色</span>
+            <span> 您好！欢迎光临安徽铜陵矽卡岩型铜多金属矿基地</span>
             <ul>
                 <li><a href="/admin" target="_blank">后台管理</a></li>
                 <li>
@@ -31,7 +31,7 @@
         <!-- top_content结束 -->
         <div class="logo">
             <div class="logo_left">
-                铜陵有色
+                安徽铜陵矽卡岩型铜多金属矿基地
             </div>
         </div>
         <!-- logo结束 -->
@@ -41,8 +41,8 @@
                 <li><a href="{% url 'home:intro'%}">简介</a></li>
                 <li><a href="{% url 'home:datas'%}">资料</a></li>
                 <li><a href="{% url 'home:literatures'%}">文献</a></li>
-                <li><a href="#">照片</a></li>
-                <li><a href="#">视频</a></li>
+                <li><a href="{% url 'home:images'%}">照片</a></li>
+                <li><a href="{% url 'home:videos'%}">视频</a></li>
             </ul>
         </div>
         <!-- nav结束 -->

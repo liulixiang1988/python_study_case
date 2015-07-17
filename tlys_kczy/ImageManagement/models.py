@@ -5,6 +5,17 @@ from django.contrib.auth.models import User
 from DjangoUeditor.models import UEditorField
 
 
+class ImageCategory(models.Model):
+    category_name = models.CharField('图片类别', max_length=200)
+
+    class Meta:
+        verbose_name = '图片类别'
+        verbose_name_plural = '图片类别'
+
+    def __str__(self):
+        return self.category_name
+
+
 class Images(models.Model):
     title = models.CharField('标题', max_length=200)
     create_date = models.DateTimeField(
@@ -19,6 +30,10 @@ class Images(models.Model):
         toolbars='full',
         imagePath='images/%(basename)s_%(datetime)s.%(extname)s',
         filePath='files/%(basename)s_%(datetime)s.%(extname)s')
+    categorys = models.ManyToManyField(
+        ImageCategory,
+        verbose_name='图片类别',
+        blank=True)
 
     class Meta:
         verbose_name = '图片'
