@@ -290,6 +290,7 @@ body {
 }
 .detail_newsContent {
   padding: 10px 40px;
+  line-height: 25px;
 }
 
 .page {

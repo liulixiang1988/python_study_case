@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"category",
+				"category_name"
+			],
+			[
+				"objec",
+				"object_list	statement"
+			],
+			[
+				"cate",
+				"category_name	statement"
+			],
+			[
 				"lis",
 				"list	function"
 			],
@@ -22,10 +34,6 @@
 			[
 				"L",
 				"LiteratureCategory〔class〕"
-			],
-			[
-				"cate",
-				"category_name"
 			],
 			[
 				"Dat",
@@ -63,22 +71,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Home/views.py",
-			"settings":
-			{
-				"buffer_size": 639,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tlys_kczy/urls.py",
-			"settings":
-			{
-				"buffer_size": 1153,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -173,22 +165,31 @@
 		"/G/git/python/python_study_case/tlys_kczy/Home/templates",
 		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home",
 		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/snippets",
+		"/G/git/python/python_study_case/tlys_kczy/static",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/static/js",
-		"/G/git/python/python_study_case/tlys_kczy/tlys_kczy",
-		"/G/git/python/python_study_case/tlys_kczy/VideoManagement"
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout",
+		"/G/git/python/python_study_case/tlys_kczy/static/static/img"
 	],
 	"file_history":
 	[
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/base.html",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/index.html",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/list.html",
-		"/G/git/WebDesign/企业网站综合布局实战/css/main.less",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_infos.scss",
+		"/G/git/python/python_study_case/tlys_kczy/Home/urls.py",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/details.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/list.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/base.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/views.py",
+		"/G/git/python/python_study_case/tlys_kczy/static/js/jquery.js",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_page.scss",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_list.scss",
+		"/G/git/python/python_study_case/tlys_kczy/DataManagement/models.py",
+		"/G/git/python/python_study_case/tlys_kczy/DataManagement/views.py",
+		"/G/git/WebDesign/企业网站综合布局实战/list.html",
+		"/G/git/WebDesign/企业网站综合布局实战/css/main.less",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_index.scss",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_detail.scss",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/index.html",
 		"/G/git/python/python_study_case/tlys_kczy/tlys_kczy/urls.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/models.py",
-		"/G/git/python/python_study_case/tlys_kczy/Home/urls.py",
-		"/G/git/python/python_study_case/tlys_kczy/Home/views.py",
 		"/G/git/前端/signin.html",
 		"/G/git/python/python_study_case/tlys_kczy/static/js/main.js",
 		"/G/git/WebDesign/有色团委/index.html",
@@ -196,7 +197,6 @@
 		"/G/git/WebDesign/有色团委/css/main.less",
 		"/G/git/python/python_study_case/tlys_kczy/static/static/css/application.css",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_main.scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_index.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/gulpfile.js",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_focus.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/static/js/app.js",
@@ -248,7 +248,6 @@
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/apps.py",
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/admin.py",
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/forms.py",
-		"/G/git/python/python_study_case/tlys_kczy/DataManagement/models.py",
 		"/G/git/python/python_study_case/tlys_kczy/Introduction/__init__.py",
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/__init__.py",
 		"/G/git/python/python_study_case/tlys_kczy/Introduction/apps.py",
@@ -341,188 +340,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Home/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								106,
-								106
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "tlys_kczy/urls.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								597,
-								597
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

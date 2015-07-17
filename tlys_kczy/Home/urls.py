@@ -7,4 +7,8 @@ urlpatterns = patterns('',
                            name='intro'),
                        url(r'^datas/$', views.datas, name='datas'),
                        url(r'^data/(?P<article_id>\d+)/$',
-                          views.data, name="data"))
+                           views.data, name="data"),
+                       url(r'^literatures/$',
+                           views.literatures, name='literatures'),
+                       url(r'^literature/(?P<article_id>\d+)/$',
+                           views.literature, name="literature"),)

@@ -37,7 +37,7 @@ myFocus.set({
         <ul>
             {% if datas %}
             {% for data in datas %}
-                <li><span>{{data.create_date| date:"Y-m-d"}}</span><a href="#" title="{{data.title}}">{{data.title}}</a></li>
+                <li><span>{{data.create_date| date:"Y-m-d"}}</span><a href="{% url 'home:data' data.id%}" title="{{data.title}}">{{data.title}}</a></li>
             {% endfor %}
             {% endif %}
         </ul>
@@ -47,14 +47,14 @@ myFocus.set({
 <!-- info结束 -->
 <div class="course">
     <div class="title">
-        <h2 class="title_left">文献</h2><span class="title_right"><a href="news.html">更多&gt;&gt;</a></span>
+        <h2 class="title_left">文献</h2><span class="title_right"><a href="{%url 'home:literatures'%}">更多&gt;&gt;</a></span>
     </div>
     <!-- title结束 -->
     <div class="info-list">
         <ul>
             {% if literatures %}
             {% for literature in literatures %}
-                <li><span>{{literature.create_date| date:"Y-m-d"}}</span><a href="#" title="{{literature.title}}">{{literature.title}}</a></li>
+                <li><span>{{literature.create_date| date:"Y-m-d"}}</span><a href="{% url 'home:literature' literature.id%}" title="{{literature.title}}">{{literature.title}}</a></li>
             {% endfor %}
             {% endif %}
         </ul>
