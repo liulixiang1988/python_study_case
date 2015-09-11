@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"V",
+				"Videos	class"
+			],
+			[
+				"ImageCat",
+				"ImagesCategoryAdmin	class"
+			],
+			[
+				"lit",
+				"literature"
+			],
+			[
+				"lite",
+				"literatures"
+			],
+			[
+				"Lit",
+				"Literature	class"
+			],
+			[
 				"category",
 				"category_name"
 			],
@@ -71,6 +91,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "tlys_kczy.sublime-project",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/git/liulixiang1988.github.io/content/CSS3扁平化风格博客.md",
+			"settings":
+			{
+				"buffer_size": 8984,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -161,33 +197,47 @@
 	"expanded_folders":
 	[
 		"/G/git/python/python_study_case/tlys_kczy",
-		"/G/git/python/python_study_case/tlys_kczy/Home",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates",
 		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home",
 		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/snippets",
 		"/G/git/python/python_study_case/tlys_kczy/static",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout",
-		"/G/git/python/python_study_case/tlys_kczy/static/static/img"
+		"/G/git/python/python_study_case/tlys_kczy/static/css",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/base"
 	],
 	"file_history":
 	[
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_infos.scss",
-		"/G/git/python/python_study_case/tlys_kczy/Home/urls.py",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/details.html",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/list.html",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/base.html",
+		"/G/git/WebDesign/admin-ui2/config.rb",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/base/_variables.scss",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/components/_logo.scss",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_menu.scss",
+		"/F/微云同步盘/documents/个人/corporation/q.sql",
 		"/G/git/python/python_study_case/tlys_kczy/Home/views.py",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_main.scss",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_list.scss",
+		"/G/git/python/python_study_case/tlys_kczy/Home/admin.py",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/details.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/videos.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/base.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/index.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/images.html",
+		"/G/git/python/python_study_case/tlys_kczy/Home/urls.py",
+		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/models.py",
+		"/G/git/python/python_study_case/tlys_kczy/DataManagement/models.py",
+		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/models.py",
+		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/admin.py",
+		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/forms.py",
+		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/forms.py",
+		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/admin.py",
+		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/views.py",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/literatures.html",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_detail.scss",
+		"/G/git/WebDesign/企业网站综合布局实战/css/main.less",
+		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_infos.scss",
+		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/list.html",
 		"/G/git/python/python_study_case/tlys_kczy/static/js/jquery.js",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_page.scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_list.scss",
-		"/G/git/python/python_study_case/tlys_kczy/DataManagement/models.py",
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/views.py",
 		"/G/git/WebDesign/企业网站综合布局实战/list.html",
-		"/G/git/WebDesign/企业网站综合布局实战/css/main.less",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_index.scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_detail.scss",
-		"/G/git/python/python_study_case/tlys_kczy/Home/templates/home/index.html",
 		"/G/git/python/python_study_case/tlys_kczy/tlys_kczy/urls.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/models.py",
 		"/G/git/前端/signin.html",
@@ -196,13 +246,9 @@
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_footer.scss",
 		"/G/git/WebDesign/有色团委/css/main.less",
 		"/G/git/python/python_study_case/tlys_kczy/static/static/css/application.css",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_main.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/gulpfile.js",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_focus.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/static/js/app.js",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_menu.scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/components/_logo.scss",
-		"/G/git/python/python_study_case/tlys_kczy/static/scss/base/_variables.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/application.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/layout/_wrap.scss",
 		"/G/git/python/python_study_case/tlys_kczy/static/scss/base/_index.scss",
@@ -229,20 +275,14 @@
 		"/G/git/python/python_study_case/tlys_kczy/kczy/forms.py",
 		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/apps.py",
 		"/G/git/python/python_study_case/tlys_kczy/kczy/models.py",
-		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/models.py",
-		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/forms.py",
 		"/G/git/python/python_study_case/tlys_kczy/kczy/admin.py",
-		"/G/git/python/python_study_case/tlys_kczy/VideoManagement/admin.py",
-		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/forms.py",
 		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/apps.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/apps.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/forms.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/__init__.py",
 		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/__init__.py",
-		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/models.py",
 		"/G/git/python/python_study_case/tlys_kczy/Introduction/admin.py",
 		"/G/git/python/python_study_case/tlys_kczy/LiteratureManagement/admin.py",
-		"/G/git/python/python_study_case/tlys_kczy/ImageManagement/admin.py",
 		"/G/git/python/python_study_case/tlys_kczy/Introduction/forms.py",
 		"/G/git/python/python_study_case/tlys_kczy/Introduction/models.py",
 		"/G/git/python/python_study_case/tlys_kczy/DataManagement/apps.py",
@@ -292,8 +332,7 @@
 		"/F/微云同步盘/documents/工作/2013-2014移动OA/OA_WorkFlow/loadflow.json",
 		"/F/微云同步盘/documents/工作/2013-2014移动OA/OA_WorkFlow/loadform.json",
 		"/F/微云同步盘/documents/工作/2013-2014移动OA/OA_WorkFlow/loaddata.json",
-		"/Z/webs/内部信息化正式系统/Application/WorkFlow/BusinessProcess/Flows/1LHQZ-3IYR8-Q68UW-ZARAQ.BRYYM-KSTVP-GRDPF-FDATP.DAT",
-		"/C/Users/Liu Lixiang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+		"/Z/webs/内部信息化正式系统/Application/WorkFlow/BusinessProcess/Flows/1LHQZ-3IYR8-Q68UW-ZARAQ.BRYYM-KSTVP-GRDPF-FDATP.DAT"
 	],
 	"find":
 	{
@@ -311,6 +350,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home:images",
+			"home:datas",
+			"content",
 			"content: \"\";",
 			"_getVendorPrefix ",
 			".top",
@@ -327,6 +369,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"home:videos",
+			"home:images",
+			"home:literatures",
 			"static",
 			"",
 			"static_src"
@@ -340,8 +385,187 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tlys_kczy.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								493,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/G/git/liulixiang1988.github.io/content/CSS3扁平化风格博客.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1423,
+								3392
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3366.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -458,7 +682,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 283.0,
+	"side_bar_width": 289.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
