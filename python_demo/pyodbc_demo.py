@@ -16,6 +16,7 @@ if row:
 cursor.execute("insert into users(user_name, password, nick_name) values(?, ?, ?)", "liulixiang1988", "123", "刘理想")
 cnxn.commit()
 
+# query multiple lines
 cursor.execute("select * from users")
 for row in cursor:
     print(row.id, row.user_name, row.password, row.nick_name)
