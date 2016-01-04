@@ -1,0 +1,880 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"post_all"
+			],
+			[
+				"edit",
+				"editorValue	statement"
+			],
+			[
+				"send",
+				"send_from_directory〔module〕"
+			],
+			[
+				"Applic",
+				"ApplicationForm"
+			],
+			[
+				"super",
+				"superuser_required	function"
+			],
+			[
+				"dec",
+				"decorated_function〔function〕"
+			],
+			[
+				"Appli",
+				"ApplicationFile〔module〕"
+			],
+			[
+				"A",
+				"ApplicationFile〔class〕"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"uuid",
+				"uuid_str"
+			],
+			[
+				"valida",
+				"validate_on_submit"
+			],
+			[
+				"login",
+				"login_required	function"
+			],
+			[
+				"flas",
+				"flash_errors	function"
+			],
+			[
+				"br",
+				"break-word〔value〕"
+			],
+			[
+				"boder",
+				"border-box〔value〕"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"tool",
+				"toolbar-size"
+			],
+			[
+				"println",
+				"println!	println! …"
+			],
+			[
+				"prin",
+				"println!	println! …"
+			],
+			[
+				"sidebar-bg",
+				"sidebar-bg-color-active"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"st",
+				"stylesheet"
+			],
+			[
+				"side",
+				"siderbar-bg-color"
+			],
+			[
+				"foote",
+				"footer-color"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"too",
+				"toolbar-size"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"V",
+				"Videos	class"
+			],
+			[
+				"ImageCat",
+				"ImagesCategoryAdmin	class"
+			],
+			[
+				"lit",
+				"literature"
+			],
+			[
+				"lite",
+				"literatures"
+			],
+			[
+				"Lit",
+				"Literature	class"
+			],
+			[
+				"category",
+				"category_name"
+			],
+			[
+				"objec",
+				"object_list	statement"
+			],
+			[
+				"cate",
+				"category_name	statement"
+			],
+			[
+				"lis",
+				"list	function"
+			],
+			[
+				"Liter",
+				"LiteratureCategory	class"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ModelForm",
+				"ModelForm	class"
+			],
+			[
+				"L",
+				"LiteratureCategory〔class〕"
+			],
+			[
+				"Dat",
+				"default_app_config	statement"
+			],
+			[
+				"ver",
+				"verbose_name"
+			],
+			[
+				"verbose_n",
+				"verbose_name_plural"
+			],
+			[
+				"add",
+				"add_author	function"
+			],
+			[
+				"seri",
+				"serializer"
+			],
+			[
+				"wat",
+				"watchFiles"
+			],
+			[
+				"conc",
+				"concatScripts"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/G/git/WebDesign/admin-ui2/index.html",
+			"settings":
+			{
+				"buffer_size": 7880,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Y/二级单位项目开发代码/框架合并2015DEMO/Application/Default2.aspx",
+			"settings":
+			{
+				"buffer_size": 5840,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"autof",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git",
+				"Github: Repository"
+			],
+			[
+				"markdown",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"se	",
+				"Set Syntax: Emmet"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/G/git/python/python_study_case/python_demo/pyodbc_demo.py",
+		"/G/git/python/python_study_case/python_demo/python_demo.sublime-project",
+		"/G/git/WebDesign/admin-ui2/js/scrollbar.js",
+		"/G/git/WebDesign/admin-ui2/index.html",
+		"/Y/二级单位项目开发代码/框架合并2015DEMO/Application/Default2.aspx",
+		"/G/git/node_demo/mean/server.js",
+		"/G/git/node_demo/mean/package.json",
+		"/C/Users/Liu Lixiang/Desktop/gui-config.json",
+		"/C/apps/shadowsocks/gui-config.json",
+		"/G/git/python/xuebacarry/app/models.py",
+		"/G/git/python/xuebacarry/app/views.py",
+		"/G/git/python/xuebacarry/app/util.py",
+		"/G/git/python/threemeal/app/models.py",
+		"/G/git/python/xuebacarry/app/form.py",
+		"/G/git/python/xuebacarry/app/decorators.py",
+		"/G/git/python/xuebacarry/config.py",
+		"/G/git/python/flasky/app/main/views.py",
+		"/G/git/python/xuebacarry/app/xueba_admin/views.py",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/post_create.html",
+		"/F/微云同步盘/documents/个人/resume/刘理想的简历(2015).html",
+		"/G/git/python/flasky/app/__init__.py",
+		"/G/git/python/flasky/app/models.py",
+		"/G/git/python/xuebacarry/.gitignore",
+		"/G/git/python/xuebacarry/app/__init__.py",
+		"/G/git/python/xuebacarry/manage.py",
+		"/G/git/python/flasky/manage.py",
+		"/G/git/python/flasky/config.py",
+		"/G/git/python/xuebacarry/README.md",
+		"/G/git/python/xuebacarry/app/templates/snippets/category_apply.html",
+		"/G/git/python/xuebacarry/app/xueba_admin/forms.py",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/apply_id.html",
+		"/G/git/python/xuebacarry/app/account/views.py",
+		"/G/git/python/xuebacarry/app/admins.py",
+		"/G/git/python/xuebacarry/app/uploader.py",
+		"/G/git/python/djangoueditor/DjangoUeditor/settings.py",
+		"/G/git/python/xuebacarry/TODO.md",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/post_all.html",
+		"/G/git/python/xuebacarry/app/templates/base.html",
+		"/G/git/python/xuebacarry/app/static/sass/_post.scss",
+		"/G/git/python/xuebacarry/app/static/sass/_posts.scss",
+		"/G/git/python/xuebacarry/app/templates/snippets/_post_delete.html",
+		"/G/git/python/xuebacarry/app/static/sass/_base.scss",
+		"/G/git/python/xuebacarry/app/templates/project_id.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/project_delete.html",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/base.html",
+		"/G/git/python/xuebacarry/app/templates/post_all.html",
+		"/G/git/python/xuebacarry/app/static/sass/custom.scss",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/base2.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/_post.html",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/apply_list.html",
+		"/G/git/WebDesign/有色团委/css/main.css",
+		"/G/git/WebDesign/有色团委/css/main.less",
+		"/G/git/python/xuebacarry/app/templates/post_detail.html",
+		"/G/git/python/xuebacarry/app/static/sass/_yue.scss",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/post.html",
+		"/G/git/python/xuebacarry/app/static/ueditor/php/config.json",
+		"/G/git/python/xuebacarry/app/xueba_admin/__init__.py",
+		"/G/git/python/xuebacarry/app/templates/xueba_admin/index.html",
+		"/G/git/dotnet/dotnet_study_case/MvcMovie/MvcMovie/Views/Movies/Details.cshtml",
+		"/G/git/python/xuebacarry/app/templates/admin/apply_id.html",
+		"/G/git/python/xuebacarry/app/templates/403.html",
+		"/G/git/python/xuebacarry/app/templates/admin/apply_list.html",
+		"/G/git/python/xuebacarry/app/templates/admin/base2.html",
+		"/G/git/python/xuebacarry/app/templates/admin/base.html",
+		"/G/git/python/xuebacarry/app/templates/admin/index.html",
+		"/G/git/python/xuebacarry/app/admin/__init__.py",
+		"/G/git/python/xuebacarry/app/errors.py",
+		"/G/git/python/xuebacarry/db_init.py",
+		"/G/git/python/xuebacarry/db_create.py",
+		"/C/py_envs/xuebacarry/lib/site-packages/flask_login.py",
+		"/G/git/python/FlaskStudy/Flasky/app/__init__.py",
+		"/G/git/python/FlaskStudy/Flasky/manage.py",
+		"/C/Users/Liu Lixiang/pip/pip.ini",
+		"/G/git/python/xuebacarry/app/templates/snippets/category_apply_list.html",
+		"/G/git/python/xuebacarry/app/templates/account_xueba.html",
+		"/G/git/python/xuebacarry/requirements.txt",
+		"/G/git/python/xuebacarry/app/templates/project_edit.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/delete_file_confirm_modal.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/macros.html",
+		"/C/py_envs/xuebacarry/lib/site-packages/werkzeug/local.py",
+		"/G/git/python/xuebacarry/app/account/__init__.py",
+		"/C/py_envs/xuebacarry/lib/site-packages/flask/blueprints.py",
+		"/G/git/python/xuebacarry/app/templates/project_all.html",
+		"/G/git/python/xuebacarry/app/templates/category_name.html",
+		"/G/git/python/xuebacarry/app/templates/xueba_all.html",
+		"/G/git/python/xuebacarry/app/templates/xueba_id.html",
+		"/G/git/python/xuebacarry/app/templates/category.html",
+		"/G/git/python/xuebacarry/app/static/sass/_accordin.scss",
+		"/G/git/WebDesign/admin-ui2/sass/_variables.scss",
+		"/G/git/python/xuebacarry/app/templates/404.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/file_delete.html",
+		"/G/git/python/xuebacarry/app/static/js/custom.js",
+		"/G/git/python/xuebacarry/app/templates/snippets/login_modal.html",
+		"/G/git/python/xuebacarry/TODO.txt",
+		"/G/git/python/xuebacarry/db_repository/versions/004_migration.py",
+		"/G/git/python/xuebacarry/app/templates/project_create.html",
+		"/G/git/python/python_study_case/tlys_kczy/tlys_kczy/settings/base.py",
+		"/C/py_envs/xuebacarry/lib/site-packages/wtforms/fields/core.py",
+		"/G/git/python/xuebacarry/app/templates/401.html",
+		"/G/git/python/xuebacarry/errors.py",
+		"/C/py_envs/xuebacarry/lib/site-packages/flask_wtf/form.py",
+		"/G/git/ionic/ionic-Project/lxzsTest/www/js/app.js",
+		"/G/git/python/xuebacarry/setup_env.sh",
+		"/G/git/python/xuebacarry/app/templates/email/welcome.html",
+		"/C/py_envs/xuebacarry/lib/site-packages/werkzeug/security.py",
+		"/G/git/python/xuebacarry/app/templates/snippets/register_modal.html",
+		"/G/git/python/xuebacarry/app/templates/email/welcome.txt",
+		"/G/git/python/xuebacarry/app/email.py",
+		"/G/git/python/xuebacarry/app/templates/index.html",
+		"/G/git/python/xuebacarry/app/templates/signup.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/form_errors.html",
+		"/G/git/python/xuebacarry/app/templates/login.html",
+		"/G/git/python/xuebacarry/app/templates/snippets/error_list.html",
+		"/G/git/python/xuebacarry/app/static/css/common.css",
+		"/G/git/python/xuebacarry/xuebacarry.sublime-project",
+		"/G/git/ionic/ionic-Project/lxzsTest/platforms/android/build.gradle",
+		"/E/Apache24/conf/httpd.conf",
+		"/G/git/python/xuebarcarry.sublime-project",
+		"/G/git/WebDesign/admin-ui2/gulpfile.js",
+		"/G/项目源码/010安装软件/2-SQL_Server_Express安装与配置文件/03-脚本/initial_db.sql",
+		"/C/Users/Liu Lixiang/Desktop/book.txt",
+		"/C/apps/Apache24/conf/httpd.conf",
+		"/G/git/liulixiang1988.github.io/content/Python-Windows下使用Apache+mod_wsgi部署Django.md",
+		"/C/apps/ReadMe.txt",
+		"/G/git/ionic/ionic-Project/lxzsTest/www/templates/login-wjmm.html",
+		"/G/git/ionic/ionic-Project/lxzsTest/www/js/controllers.js",
+		"/G/git/python/python_study_case/tlys_kczy/requirements.txt",
+		"/G/git/python/python_study_case/tlys_kczy/tlys_kczy/wsgi.py"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"S3file",
+			"Project",
+			"project_files",
+			"S3file",
+			"enum",
+			"csrf",
+			"timezone_choices",
+			"session",
+			"role",
+			"abort",
+			"post",
+			"id",
+			"post_detail",
+			"carry",
+			"FUNC",
+			"login",
+			"logout",
+			"signup",
+			"ApplicationFile",
+			"Post",
+			"upload",
+			"Uploader",
+			"dt",
+			"category",
+			"login_required",
+			"redirect",
+			"save_pr",
+			"save_files",
+			"macros",
+			"int(",
+			"int",
+			"int(",
+			"uuid",
+			"UUID",
+			"id",
+			"category",
+			"menu",
+			"file",
+			"login",
+			"logout",
+			"ServerName",
+			"50",
+			"tabs",
+			"siderbar-bg-color",
+			".side-bar{",
+			"encoding",
+			"navbar",
+			"$currentTab",
+			"home:images",
+			"home:datas",
+			"content",
+			"content: \"\";",
+			"_getVendorPrefix ",
+			".top",
+			"static/static",
+			"static_src/",
+			"static/src",
+			"){\n",
+			"        ",
+			"错误处理"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"li",
+			"item",
+			"100",
+			"sidebar-bg-color",
+			"home:videos",
+			"home:images",
+			"home:literatures",
+			"static",
+			"",
+			"static_src"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/G/git/WebDesign/admin-ui2/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Y/二级单位项目开发代码/框架合并2015DEMO/Application/Default2.aspx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "python_demo.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"xuebacarry\\app\\templates\\snippets\\_post.html"
+			],
+			[
+				"vie",
+				"xuebacarry\\app\\views.py"
+			],
+			[
+				"vi",
+				"app\\views.py"
+			],
+			[
+				"mod",
+				"app\\models.py"
+			],
+			[
+				"base.h",
+				"Home\\templates\\home\\base.html"
+			],
+			[
+				"admin",
+				"ImageManagement\\admin.py"
+			],
+			[
+				"models",
+				"ImageManagement\\models.py"
+			],
+			[
+				"forms",
+				"kczy\\forms.py"
+			],
+			[
+				"mode",
+				"kczy\\models.py"
+			],
+			[
+				"apps",
+				"DataManagement\\apps.py"
+			],
+			[
+				"adm",
+				"kczy\\admin.py"
+			],
+			[
+				"form",
+				"kczy\\forms.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
