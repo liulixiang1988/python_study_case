@@ -54,6 +54,7 @@ class DoubleArrayType:
 
     # 从lists/tuples转换
     def from_list(self, param):
+        # list转换为数组
         val = ((ctypes.c_double) * len(param))(*param)
         return val
 
